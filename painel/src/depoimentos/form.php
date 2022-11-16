@@ -88,7 +88,7 @@
       </div>
 
       <div class="form-floating mb-3">
-        <textarea class="form-control" id="depoimento" name="depoimento"><?=$d->depoimento?></textarea>
+        <textarea class="form-control" id="depoimento" name="depoimento" style="height:100px;"><?=$d->depoimento?></textarea>
         <label for="depoimento">Depoimento</label>
         <div class="form-text">Digite o seu depoimento.</div>
       </div>
