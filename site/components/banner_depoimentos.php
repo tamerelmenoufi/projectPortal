@@ -17,7 +17,17 @@
                 <h3><?=$d->nome?></h3>
                 <h4><?=$d->empresa?></h4>
                 <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <?php
+                  for($i=1;$i<=5;$i++){
+                  ?>
+                  <i class="bi bi-star-fill" <?=(($i > $d->avaliacao)?'Style="color:#eee"':false)?>></i>
+                  <?php
+                  }
+                  ?>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
