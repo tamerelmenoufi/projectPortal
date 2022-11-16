@@ -39,7 +39,7 @@
         mysqli_query($con, $query);
         $acao = mysqli_affected_rows($con);
       }else{
-        $query = "INSERT INTO tipo set ".implode(", ",$campos)."";
+        $query = "INSERT INTO time set ".implode(", ",$campos)."";
         mysqli_query($con, $query);
         $acao = mysqli_affected_rows($con);
       }
