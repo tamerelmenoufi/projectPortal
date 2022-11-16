@@ -115,7 +115,7 @@
         ?>
         <div class="mb-3 form-check">
           <input type="radio" class="form-check-input" name="avaliacao" id="avaliacao<?=$i?>">
-          <label class="form-check-label" for="avaliacao">
+          <label class="form-check-label" for="avaliacao<?=$i?>">
 
           <?php
           for($j=0;$j<$i;$j++){
