@@ -87,12 +87,6 @@
         <div class="form-text">Digite o nome de sua Empresa.</div>
       </div>
 
-      <div class="form-floating mb-3">
-        <textarea class="form-control" id="depoimento" name="depoimento" style="height:100px;"><?=$d->depoimento?></textarea>
-        <label for="depoimento">Depoimento</label>
-        <div class="form-text">Digite o seu depoimento.</div>
-      </div>
-
       <div showImage class="form-floating" style="display:<?=(($d->imagem)?'block':'none')?>">
         <img src="<?=$localPainel?>src/volume/depoimentos/<?=$d->imagem?>" class="img-fluid mt-3 mb-3" alt="" />
       </div>
@@ -131,6 +125,13 @@
         ?>
         <div class="form-text">Selecione a sua avaliação</div>
       </div>
+
+      <div class="form-floating mb-3">
+        <textarea class="form-control" id="depoimento" name="depoimento" style="height:100px;"><?=$d->depoimento?></textarea>
+        <label for="depoimento">Depoimento</label>
+        <div class="form-text">Digite o seu depoimento.</div>
+      </div>
+
 
       <div class="form-floating">
         <select id="situacao" name="situacao" class="form-control" placeholder="Situação">
