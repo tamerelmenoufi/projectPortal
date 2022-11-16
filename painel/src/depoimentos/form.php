@@ -103,7 +103,7 @@
         <div class="form-text mb-3">Selecione foto sua ou de sua empresa</div>
       <!-- </div> -->
 
-      <div class="form-floating">
+      <div class="mb-3 form-floating">
         <?php
         for($i=1;$i<=5;$i++){
         ?>
