@@ -101,9 +101,19 @@
         <div class="form-text mb-3">Selecione foto sua ou de seu cadastro</div>
       <!-- </div> -->
 
-      <div class="form-floating mb-3">
-        <!-- <textarea class="form-control" id="depoimento" name="depoimento" style="height:100px;"><?=$d->depoimento?></textarea> -->
+      <?php
 
+      $midias_sociais = [
+        'facebook',
+        'twitter',
+        'instagram',
+        'youtube',
+        'linkdin',
+      ];
+
+      for($i=0;$i<count($midias_sociais);$i++){
+      ?>
+      <div class="form-floating mb-3">
         <div class="input-group mb-3">
           <div class="input-group-text">
             <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
@@ -113,12 +123,10 @@
           </div>
           <input type="text" class="form-control" aria-label="Text input with checkbox">
         </div>
-
-
-        <!-- <label for="depoimento">Depoimento</label>
-        <div class="form-text">Digite o seu depoimento.</div> -->
       </div>
-
+      <?php
+      }
+      ?>
 
       <div class="form-floating">
         <select id="situacao" name="situacao" class="form-control" placeholder="Situação">
