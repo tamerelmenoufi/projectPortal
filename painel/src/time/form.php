@@ -22,7 +22,7 @@
         $ext = substr($_POST['imagem_nome'], strripos($_POST['imagem_nome'],'.'), strlen($_POST['imagem_nome']));
         $nome = md5($_POST['base64'].$_POST['imagem_tipo'].$_POST['imagem_nome']).$ext;
 
-        if(!is_dir("../volume/depoimentos")) mkdir("../volume/time");
+        if(!is_dir("../volume/time")) mkdir("../volume/time");
         if(file_put_contents("../volume/time/".$nome, $img)){
           $dados['imagem'] = $nome;
         }
@@ -88,7 +88,7 @@
       </div>
 
       <div showImage class="form-floating" style="display:<?=(($d->imagem)?'block':'none')?>">
-        <img src="<?=$localPainel?>src/volume/depoimentos/<?=$d->imagem?>" class="img-fluid mt-3 mb-3" alt="" />
+        <img src="<?=$localPainel?>src/volume/time/<?=$d->imagem?>" class="img-fluid mt-3 mb-3" alt="" />
       </div>
 
       <!-- <div class="form-floating"> -->
@@ -181,7 +181,7 @@
         console.log(data);
 
         $.ajax({
-          url:"src/depoimentos/form.php",
+          url:"src/time/form.php",
           type:"POST",
           data,
           success:function(dados){
@@ -200,7 +200,7 @@
 
             $("div[lista]").html('');
             $.ajax({
-              url:"src/depoimentos/lista.php",
+              url:"src/time/lista.php",
               success:function(dados){
                   // $("div[lista]").html(dados);
                   $("#paginaHome").html(dados);
