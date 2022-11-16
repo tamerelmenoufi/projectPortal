@@ -114,7 +114,7 @@
         for($i=1;$i<=5;$i++){
         ?>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" name="avaliacao" id="avaliacao">
+          <input type="radio" class="form-check-input" name="avaliacao" id="avaliacao<?=$i?>">
           <label class="form-check-label" for="avaliacao">
 
           <?php
