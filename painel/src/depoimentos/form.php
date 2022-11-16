@@ -88,13 +88,13 @@
       </div>
 
       <div class="form-floating mb-3">
-        <textarea id="depoimento" name="depoimento"><?=$d->depoimento?></textarea>
+        <textarea class="form-control" id="depoimento" name="depoimento"><?=$d->depoimento?></textarea>
         <label for="depoimento">Depoimento</label>
         <div class="form-text">Digite o seu depoimento.</div>
       </div>
 
       <div showImage class="form-floating" style="display:<?=(($d->imagem)?'block':'none')?>">
-        <img src="<?=$localPainel?>src/volume/noticias/<?=$d->imagem?>" class="img-fluid mt-3 mb-3" alt="" />
+        <img src="<?=$localPainel?>src/volume/depoimentos/<?=$d->imagem?>" class="img-fluid mt-3 mb-3" alt="" />
       </div>
 
       <!-- <div class="form-floating"> -->
