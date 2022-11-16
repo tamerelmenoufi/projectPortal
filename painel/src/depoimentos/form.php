@@ -108,7 +108,7 @@
         for($i=1;$i<=5;$i++){
         ?>
         <div class="mb-3 form-check">
-          <input type="radio" class="form-check-input" name="avaliacao" id="avaliacao<?=$i?>">
+          <input type="radio" <?=(($d->avaliacao == $i)?'checked':false)?> class="form-check-input" name="avaliacao" id="avaliacao<?=$i?>">
           <label class="form-check-label" for="avaliacao<?=$i?>">
 
           <?php
