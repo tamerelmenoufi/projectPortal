@@ -124,14 +124,12 @@
           <?php
           }
           ?>
-
-
           </label>
         </div>
         <?php
         }
         ?>
-
+        <div class="form-text">Selecione a sua avaliação</div>
       </div>
 
       <div class="form-floating">
