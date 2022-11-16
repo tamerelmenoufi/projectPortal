@@ -97,6 +97,8 @@
         <img src="<?=$localPainel?>src/volume/depoimentos/<?=$d->imagem?>" class="img-fluid mt-3 mb-3" alt="" />
       </div>
 
+
+
       <!-- <div class="form-floating"> -->
         <input type="file" class="form-control" placeholder="Banner">
         <input type="hidden" id="base64" name="base64" value="" />
@@ -107,6 +109,27 @@
         <div class="form-text mb-3">Selecione foto sua ou de sua empresa</div>
       <!-- </div> -->
 
+      <div class="form-floating">
+        <select id="avaliacao" name="avaliacao" class="form-control" placeholder="Avaliação">
+          <?php
+          for($i=1;$i<=5;$i++){
+          ?>
+          <option value="1" <?=(($d->situacao == '1')?'selected':false)?>>
+          <?php
+          for($j=0;$j<$i;$j++){
+          ?>
+            <i class="fa-solid fa-star"></i>
+          <?php
+          }
+          ?>
+          </option>
+          <?php
+          }
+          ?>
+        </select>
+        <label for="avaliacao">Avaliação</label>
+        <div class="form-text">Selecione a opção da avaliação</div>
+      </div>
 
       <div class="form-floating">
         <select id="situacao" name="situacao" class="form-control" placeholder="Situação">
