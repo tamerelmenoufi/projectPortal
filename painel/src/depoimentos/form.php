@@ -15,14 +15,14 @@
 
       if($_POST['base64'] and $_POST['imagem_tipo'] and $_POST['imagem_nome']){
 
-        if($_POST['imagem']) unlink("../volume/noticias/{$_POST['imagem']}");
+        if($_POST['imagem']) unlink("../volume/depoimentos/{$_POST['imagem']}");
 
         $base64 = explode('base64,', $_POST['base64']);
         $img = base64_decode($base64[1]);
         $ext = substr($_POST['imagem_nome'], strripos($_POST['imagem_nome'],'.'), strlen($_POST['imagem_nome']));
         $nome = md5($_POST['base64'].$_POST['imagem_tipo'].$_POST['imagem_nome']).$ext;
 
-        if(!is_dir("../volume/depoimentos")) mkdir("../volume/noticias");
+        if(!is_dir("../volume/depoimentos")) mkdir("../volume/depoimentos");
         if(file_put_contents("../volume/depoimentos/".$nome, $img)){
           $dados['imagem'] = $nome;
         }
