@@ -75,7 +75,13 @@
     </div>
 
 
-
+    <div class="row mb-1">
+      <div class="col">
+        <a url="src/time/index.php" class="text-decoration-none" data-bs-dismiss="offcanvas" aria-label="Close">
+          <i class="fa-solid fa-clipboard-list"></i> Time da Empresa
+        </a>
+      </div>
+    </div>
 
   </div>
 </div>
