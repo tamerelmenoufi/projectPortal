@@ -110,11 +110,13 @@
       <!-- </div> -->
 
       <div class="form-floating">
-        <select id="avaliacao" name="avaliacao" class="form-control" placeholder="Avaliação">
-          <?php
-          for($i=1;$i<=5;$i++){
-          ?>
-          <option value="1" <?=(($d->situacao == '1')?'selected':false)?>>
+        <?php
+        for($i=1;$i<=5;$i++){
+        ?>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" name="avaliacao" id="avaliacao">
+          <label class="form-check-label" for="avaliacao">
+
           <?php
           for($j=0;$j<$i;$j++){
           ?>
@@ -122,13 +124,14 @@
           <?php
           }
           ?>
-          </option>
-          <?php
-          }
-          ?>
-        </select>
-        <label for="avaliacao">Avaliação</label>
-        <div class="form-text">Selecione a opção da avaliação</div>
+
+
+          </label>
+        </div>
+        <?php
+        }
+        ?>
+
       </div>
 
       <div class="form-floating">
