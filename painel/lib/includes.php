@@ -1,0 +1,10 @@
+<?php
+    session_start();
+    include("connect_local.php");
+    // include("/appinc/connect.php");
+    include("fn.php");
+    $con = AppConnect('app');
+    $md5 = md5(date("YmdHis"));
+
+    $localPainel = $_SERVER["REQUEST_SCHEME"]."://".$_SERVER["HTTP_HOST"]."/project/portal/painel/";
+    $localSite = $_SERVER["REQUEST_SCHEME"]."://".$_SERVER["HTTP_HOST"]."/project/portal/site/";
