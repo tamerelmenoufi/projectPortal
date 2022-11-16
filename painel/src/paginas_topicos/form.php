@@ -1,5 +1,5 @@
 <?php
-    include("{$_SERVER['DOCUMENT_ROOT']}/project/portal/painel/lib/includes.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/portal/painel/lib/includes.php");
 
     if($_POST['excluir']){
 
