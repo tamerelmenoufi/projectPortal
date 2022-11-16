@@ -57,7 +57,7 @@
               </thead>
               <tbody>
                 <?php
-                  $query = "select * from depoimentos order by titulo asc";
+                  $query = "select * from depoimentos order by nome asc";
                   $result = mysqli_query($con, $query);
                   while($d = mysqli_fetch_object($result)){
                 ?>
