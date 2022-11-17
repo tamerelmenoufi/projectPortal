@@ -116,6 +116,8 @@
         'linkedin' => 'https://www.linkedin.com/',
       ];
 
+      print_r($midias);
+
       foreach($midias_sociais as $ind => $url){
       ?>
       <div class="form-floating mb-3">
