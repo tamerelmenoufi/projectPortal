@@ -114,6 +114,7 @@
         'instagram' => 'https://www.instagram.com/',
         'youtube' => 'https://www.youtube.com/',
         'linkedin' => 'https://www.linkedin.com/',
+        'whatsapp' => 'https://api.whatsapp.com/'
       ];
 
       foreach($midias_sociais as $ind => $url){
