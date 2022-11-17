@@ -6,12 +6,14 @@
       $dados = $_POST;
       unset($dados['acao']);
       unset($dados['codigo']);
-
+      unset($dados['midias']);
       //Imagem
       $img = false;
       unset($dados['base64']);
       unset($dados['imagem_tipo']);
       unset($dados['imagem_nome']);
+
+      $dados['canais_contatos'] = json_encode($_POST['midias']);
 
       if($_POST['base64'] and $_POST['imagem_tipo'] and $_POST['imagem_nome']){
 
@@ -45,7 +47,7 @@
       }
 
       if($acao){
-        echo $query."Atualização realizada com sucesso!";
+        echo "Atualização realizada com sucesso!";
       }else{
         echo "Nenhuma alteração foi registrada!";
       }
