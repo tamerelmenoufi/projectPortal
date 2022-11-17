@@ -121,7 +121,7 @@
           <div class="input-group-text">
             <?=$url?>
           </div>
-          <input type="text" class="form-control" aria-label="Text input with checkbox">
+          <input midias="<?=$ind?>" type="text" class="form-control" aria-label="Text input with checkbox">
         </div>
       </div>
       <?php
@@ -177,6 +177,10 @@
         event.preventDefault();
         // materia = editor.getData();
         data = $( this ).serialize();
+
+        $("input[midias]").each(function(){
+          data.push({name:midias[$(this).attr("midias")], value:$(this).val()});
+        });
         // data.push({name:'materia', value:editor});
         console.log(data);
 
