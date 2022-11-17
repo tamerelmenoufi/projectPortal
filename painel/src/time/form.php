@@ -179,8 +179,7 @@
         data = $( this ).serialize();
 
         $("input[midias]").each(function(){
-          opc = $(this).attr("midias")
-          data.push({name:`midias[${opc}]`, value:$(this).val()});
+          data.push({name:$(this).attr("midias"), value:$(this).val()});
         });
         // data.push({name:'materia', value:editor});
         console.log(data);
