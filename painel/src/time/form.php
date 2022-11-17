@@ -63,7 +63,7 @@
       $result = mysqli_query($con, $query);
       $d = mysqli_fetch_object($result);
 
-      $midias = json_decode($d->midias);
+      $midias = json_decode($d->canais_contatos);
 
     }
 
