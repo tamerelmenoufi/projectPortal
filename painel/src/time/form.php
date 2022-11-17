@@ -62,6 +62,9 @@
       $query = "select * from time where codigo = '{$_POST['cod']}'";
       $result = mysqli_query($con, $query);
       $d = mysqli_fetch_object($result);
+
+      $midias = json_decode($d->midias);
+
     }
 
 ?>
@@ -123,7 +126,7 @@
           <div class="input-group-text">
             <?=$url?>
           </div>
-          <input name=midias[<?=$ind?>] id="midias<?=$ind?>" value="" type="text" class="form-control" aria-label="Text input with checkbox">
+          <input name=midias[<?=$ind?>] id="midias<?=$ind?>" value="<?=$midias[$ind]?>" type="text" class="form-control" aria-label="Text input with checkbox">
         </div>
       </div>
       <?php
