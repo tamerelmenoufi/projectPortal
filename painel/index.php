@@ -27,7 +27,7 @@
   <style> 
 body {
 
-    background-image:(img/logopainel.png);
+    background:url(img/logopainel.png);
    
 }
 
