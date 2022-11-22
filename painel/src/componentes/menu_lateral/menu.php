@@ -7,7 +7,7 @@
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
-    <h5>Project Map Censo - AADESAM</h5>
+    <h4 style="color:#239ea0">Project Map Censo - AADESAM</h4>
  
     <div class="row mb-1">
       <div class="col">
