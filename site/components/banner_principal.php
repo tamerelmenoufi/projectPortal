@@ -21,7 +21,7 @@ if($_GET['cod']){
         <center>
         <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" 
         class="glightbox btn-watch-video d-flex align-items-center">
-        <p style="font-size:20px"> <i class="bi bi-play-circle"></i> Clique para conferir o nosso video.</p>  <i class="bi bi-play-circle"></i></a>
+        <p style="font-size:20px;color:var(--color-links)"> <i class="bi bi-play-circle"></i> Clique para conferir o nosso video.  <i class="bi bi-play-circle"></i></p></a>
 </center>
       </div>
       </div>
