@@ -32,7 +32,7 @@
 
       <a href="index.php" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo.png" style="height:100px !mportant;" alt="">
+        <img src="assets/img/logositep.png" style="height:100px !mportant;" alt="">
         <h1><span>.Project .</span></h1>
       </a>
 
