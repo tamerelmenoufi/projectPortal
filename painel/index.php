@@ -24,6 +24,15 @@
     include("lib/header.php");
     ?>
   </head>
+  <style> 
+body {
+
+    background-img:(img/logopainel.png) no-repeat;
+   
+}
+
+</style>
+  
   <body>
 
     <div class="Carregando">
