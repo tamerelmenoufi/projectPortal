@@ -98,7 +98,7 @@
         // 'planos',
         // 'faq',
         'time',
-        'contato',
+        '',
         'rodape',
 
 
