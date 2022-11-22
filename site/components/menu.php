@@ -26,6 +26,13 @@
 
 ?>
 
+<style>
+.header .logo h1 span {
+  color: #0dacad!important;
+  font-weight: 500;
+}
+</style>
+
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top" data-scrollto-offset="0">
     <div class="container-fluid d-flex align-items-center justify-content-between">
@@ -33,7 +40,7 @@
       <a href="index.php" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/logo.png" style="height:100px !important;" alt="">
-        <h1 style="color:#16999a"><span>.Project .</span></h1>
+        <h1 ><span>.Project .</span></h1>
       </a>
 
       <nav id="navbar" class="navbar">
