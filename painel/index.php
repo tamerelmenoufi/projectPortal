@@ -27,7 +27,7 @@
   <style> 
 body {
 
-    background:url(img/logopainel.png);
+    background:url(img/fundopainelp.jpg)  no-reapet center;
    
 }
 
