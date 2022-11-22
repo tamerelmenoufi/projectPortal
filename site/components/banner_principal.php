@@ -18,8 +18,10 @@ if($_GET['cod']){
           <p><?=$d->descricao?></p>
       
       <div class="d-flex">
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
-        <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+        <center>
+        <a href="#about" class="btn-get-started scrollto">Clique para </a>
+        <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>conferir o nosso video.</span></a>
+</center>
       </div>
       </div>
       </div>
