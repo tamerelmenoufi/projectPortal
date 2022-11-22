@@ -8,9 +8,9 @@ if($_GET['cod']){
   $result = mysqli_query($con, $query);
   $d = mysqli_fetch_object($result);
 ?>
-<section id="hero-animated" class="hero-animated d-flex align-items-center">
-    <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
-      <img src="<?=$localPainel?>src/volume/banners/<?=$d->imagem?>" class="img-fluid animated">
+<section id="" class="">
+    <div class="col-md-12" data-aos="">
+      <img src="<?=$localPainel?>src/volume/banners/<?=$d->imagem?>" class="img-responsive" style="width:100%;margin-top:25px">
       <h2><?=$d->titulo?> <!-- <span>HeroBiz</span> --></h2>
       <p><?=$d->descricao?></p>
       <div class="d-flex">
