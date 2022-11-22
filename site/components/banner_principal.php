@@ -8,7 +8,7 @@ if($_GET['cod']){
   $result = mysqli_query($con, $query);
   $d = mysqli_fetch_object($result);
 ?>
-<section id="hero-animate">
+<section id="hero-animated">
     <div class="col-md-12" data-aos="">
       <img src="<?=$localPainel?>src/volume/banners/<?=$d->imagem?>" class="img-responsive" style="width:100%;margin-top:25px">
       </div>
@@ -20,6 +20,7 @@ if($_GET['cod']){
       <div class="d-flex">
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
         <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+      </div>
       </div>
       </div>
 </section>
