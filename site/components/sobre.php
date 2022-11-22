@@ -9,7 +9,7 @@
 ?>
 
 <!-- ======= About Section ======= -->
-<section id="Conheca" class="about">
+<section id="conheca" class="about">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
