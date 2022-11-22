@@ -31,6 +31,7 @@
 
 .texto-branco{
   color: #fff!important;
+  
 }
 
 .texto-branco:hover{
@@ -122,6 +123,9 @@
       </div>
     </div>
 
+
+
+    <div style="font-size:55px;color:#16999a"><center>. . . </center></div>
   </div>
 </div>
 
