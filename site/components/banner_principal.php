@@ -17,10 +17,11 @@ if($_GET['cod']){
           <h2><?=$d->titulo?></h2>
           <p><?=$d->descricao?></p>
       
-      <div class="d-flex">
+      <div class="">
         <center>
-        <a href="#about" class="btn-get-started scrollto">Clique para </a>
-        <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>conferir o nosso video.</span></a>
+        <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" 
+        class="glightbox btn-watch-video d-flex align-items-center">
+        <p style="font-size:20px"> <i class="bi bi-play-circle"></i> Clique para conferir o nosso video.</p>  <i class="bi bi-play-circle"></i></a>
 </center>
       </div>
       </div>
