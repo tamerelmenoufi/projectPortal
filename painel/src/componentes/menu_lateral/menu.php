@@ -24,9 +24,19 @@
  color: #159a9b!important;
 }
 
+.texto-verde:houver{
+ color: #fff!important;
+}
+
+
 .texto-branco{
   color: #fff!important;
 }
+
+.texto-branco{
+  color: #159a9b!important;
+}
+
 
 
 </style>
