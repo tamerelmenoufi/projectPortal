@@ -125,7 +125,6 @@
 
 
 
-    <div style="font-size:55px;color:#16999a"><center>. . . </center></div>
   </div>
 </div>
 
