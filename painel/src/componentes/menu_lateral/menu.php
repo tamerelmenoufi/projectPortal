@@ -4,21 +4,28 @@
 
 <style> 
 .menu-verde{
-  background: #159a9b;padding:10px;
-  color: #fff!important;
+  background: #159a9b;padding:10px
+  
 }
 
 .menu-verde:hover{
-  background: #fff;padding:10px;
-  color: #159a9b!important;
+  background: #fff;padding:10px
 }
 .menu-branco {
   background: #fff;padding:10px
 }
 
+.menu-branco:hover {
+  background: #159a9b;padding:10px
+}
+
 
 .texto-verde{
  color: #159a9b!important;
+}
+
+.texto-branco{
+  color: #fff!important;
 }
 
 
@@ -63,44 +70,44 @@
       </div>
     </div>
 
-    <div class="row mb-1">
+    <div class="row mb-1  menu-verde">
       <div class="col">
-        <a url="src/paginas_topicos/index.php" class="text-decoration-none" data-bs-dismiss="offcanvas" aria-label="Close">
-          <i class="fa-solid fa-clipboard-list"></i> Páginas com Toópicos
+        <a url="src/paginas_topicos/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
+          Páginas com Toópicos
         </a>
       </div>
     </div>
 
-    <div class="row mb-1">
+    <div class="row mb-1  menu-branco">
       <div class="col">
-        <a url="src/noticias/index.php" class="text-decoration-none" data-bs-dismiss="offcanvas" aria-label="Close">
-          <i class="fa-solid fa-clipboard-list"></i> Notícias
+        <a url="src/noticias/index.php" class="text-decoration-none texto-verde" data-bs-dismiss="offcanvas" aria-label="Close">
+          Notícias
         </a>
       </div>
     </div>
 
-    <div class="row mb-1">
+    <div class="row mb-1  menu-verde">
       <div class="col">
-        <a url="src/portifolio/index.php" class="text-decoration-none" data-bs-dismiss="offcanvas" aria-label="Close">
-          <i class="fa-solid fa-clipboard-list"></i> Portifólio
-        </a>
-      </div>
-    </div>
-
-
-    <div class="row mb-1">
-      <div class="col">
-        <a url="src/depoimentos/index.php" class="text-decoration-none" data-bs-dismiss="offcanvas" aria-label="Close">
-          <i class="fa-solid fa-clipboard-list"></i> Depoimentos
+        <a url="src/portifolio/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
+         Portifólio
         </a>
       </div>
     </div>
 
 
-    <div class="row mb-1">
+    <div class="row mb-1  menu-branco">
       <div class="col">
-        <a url="src/time/index.php" class="text-decoration-none" data-bs-dismiss="offcanvas" aria-label="Close">
-          <i class="fa-solid fa-clipboard-list"></i> Time da Empresa
+        <a url="src/depoimentos/index.php" class="text-decoration-none texto-verde" data-bs-dismiss="offcanvas" aria-label="Close">
+           Depoimentos
+        </a>
+      </div>
+    </div>
+
+
+    <div class="row mb-1  menu-verde">
+      <div class="col">
+        <a url="src/time/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
+          Time da Empresa
         </a>
       </div>
     </div>
