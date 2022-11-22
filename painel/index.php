@@ -27,7 +27,7 @@
   <style> 
 body {
 
-    background-img:(img/logopainel.png) no-repeat;
+    background-image:(img/logopainel.png);
    
 }
 
