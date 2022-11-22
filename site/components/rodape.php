@@ -1,3 +1,12 @@
+  
+  <style>
+
+.footer .footer-legal {
+  padding: 30px 0;
+  background: #16999a!important;
+}
+  </style>
+  
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
 
@@ -14,7 +23,7 @@
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-           Desenvolvido por <a href="https://mohatron.com.br/">Mohatron Solucções em TI</a>
+           Desenvolvido por <a style="color:#fff" href="https://mohatron.com.br/">Mohatron Solucções em TI</a>
           </div>
         </div>
 
