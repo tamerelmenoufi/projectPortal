@@ -1,3 +1,6 @@
+<?php
+    include("{$_SERVER['DOCUMENT_ROOT']}/portal/painel/lib/includes.php");
+?>
 
 <style> 
 .menu-verde{
@@ -16,10 +19,6 @@
 
 
 </style>
-
-<?php
-    include("{$_SERVER['DOCUMENT_ROOT']}/portal/painel/lib/includes.php");
-?>
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
   <div class="offcanvas-header">
     <img src="img/logomenup.png" style="height:60px;" alt="">
@@ -55,7 +54,7 @@
     <div class="row mb-1 menu-branco">
       <div class="col">
         <a url="src/banners/index.php" class="text-decoration-none texto-verde" data-bs-dismiss="offcanvas" aria-label="Close">
-          </i> Banners
+           Banners
         </a>
       </div>
     </div>
