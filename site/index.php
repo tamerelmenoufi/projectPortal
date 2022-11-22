@@ -103,7 +103,7 @@
 
 
     ];
-
+ 
     foreach($componentes as $i => $v){
         include("components/{$v}.php");
     }
