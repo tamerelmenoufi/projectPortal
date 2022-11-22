@@ -4,18 +4,18 @@
 
 <style> 
 .menu-verde{
-  background: #159a9b;padding:10px
+  background: #159a9b;padding:10px;
+  color: #fff!important;
 }
 
 .menu-verde:hover{
-  background: #fff;padding:10px
+  background: #fff;padding:10px;
+  color: #159a9b!important;
 }
 .menu-branco {
   background: #fff;padding:10px
 }
-.texto-branco{
- color: #fff!important;
-}
+
 
 .texto-verde{
  color: #159a9b!important;
