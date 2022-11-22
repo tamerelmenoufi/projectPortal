@@ -1,4 +1,11 @@
     <!-- ======= Contact Section ======= -->
+    <style>
+    .contact .php-email-form textarea {
+  padding: 10px 12px;
+  height: 115px!important;
+}
+    </style>
+    
     <section id="contact" class="contact">
       <div class="container">
 
