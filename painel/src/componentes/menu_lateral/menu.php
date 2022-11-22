@@ -6,6 +6,10 @@
 .menu-verde{
   background: #159a9b;padding:10px
 }
+
+.menu-verde:hover{
+  background: #fff;padding:10px
+}
 .menu-branco {
   background: #fff;padding:10px
 }
