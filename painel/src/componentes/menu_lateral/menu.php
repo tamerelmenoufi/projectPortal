@@ -24,7 +24,7 @@
  color: #159a9b!important;
 }
 
-.texto-verde:houver{
+.texto-verde:hover{
  color: #fff!important;
 }
 
@@ -33,7 +33,7 @@
   color: #fff!important;
 }
 
-.texto-branco{
+.texto-branco:hover{
   color: #159a9b!important;
 }
 
