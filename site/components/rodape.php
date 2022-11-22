@@ -1,4 +1,7 @@
- 
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+   
     <div class="footer-legal text-center">
       <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
