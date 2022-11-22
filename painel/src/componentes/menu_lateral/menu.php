@@ -1,3 +1,22 @@
+
+<style> 
+.menu-verde{
+  background: #159a9b;padding:10px
+}
+.menu-branco {
+  background: #fff;padding:10px
+}
+.texto-branco{
+ color: #fff!important;
+}
+
+.texto-verde{
+ color: #159a9b!important;
+}
+
+
+</style>
+
 <?php
     include("{$_SERVER['DOCUMENT_ROOT']}/portal/painel/lib/includes.php");
 ?>
@@ -9,34 +28,34 @@
   <div class="offcanvas-body">
     <h4 style="color:#239ea0">Project Map Censo - AADESAM</h4>
  
-    <div class="row mb-1">
+    <div class="row mb-1 menu-verde">
       <div class="col">
-        <a url="src/dashboard/index.php" class="text-decoration-none" data-bs-dismiss="offcanvas" aria-label="Close">
-          <i class="fa-solid fa-clipboard-list"></i> Dashboard
+        <a url="src/dashboard/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
+         Dashboard
         </a>
       </div>
     </div>
 
-    <div class="row mb-1">
+    <div class="row mb-1 menu-branco">
       <div class="col">
-        <a url="src/usuarios/index.php" class="text-decoration-none" data-bs-dismiss="offcanvas" aria-label="Close">
-          <i class="fa-solid fa-clipboard-list"></i> Usuários do Sistema
+        <a url="src/usuarios/index.php" class="text-decoration-none texto-verde" data-bs-dismiss="offcanvas" aria-label="Close">
+          Usuários do Sistema
         </a>
       </div>
     </div>
 
-    <div class="row mb-1">
+    <div class="row mb-1 menu-verde">
       <div class="col">
-        <a url="src/menu/index.php" class="text-decoration-none" data-bs-dismiss="offcanvas" aria-label="Close">
-          <i class="fa-solid fa-clipboard-list"></i> Menus
+        <a url="src/menu/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
+          Menus
         </a>
       </div>
     </div>
 
-    <div class="row mb-1">
+    <div class="row mb-1 menu-branco">
       <div class="col">
-        <a url="src/banners/index.php" class="text-decoration-none" data-bs-dismiss="offcanvas" aria-label="Close">
-          <i class="fa-solid fa-clipboard-list"></i> Banners
+        <a url="src/banners/index.php" class="text-decoration-none texto-verde" data-bs-dismiss="offcanvas" aria-label="Close">
+          </i> Banners
         </a>
       </div>
     </div>
