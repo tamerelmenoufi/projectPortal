@@ -23,8 +23,8 @@
                 <span class="post-date">Tue, December 12</span>
                 <span class="post-author"> / Julia Parker</span>
               </div> -->
-              <h3 class="post-title"><?=$d->titulo?></h3>
-              <p><?=strip_tags(str_replace('<',' <',str_replace('>','> ',$d->materia)))?></p>
+              <h3 class="post-title" style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><?=$d->titulo?></h3>
+              <p style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;"><?=strip_tags(str_replace('<',' <',str_replace('>','> ',$d->materia)))?></p>
               <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
