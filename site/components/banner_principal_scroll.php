@@ -63,6 +63,6 @@ if($_GET['cod']){
       <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
     </a>
 
-    <ol class="carousel-indicators" style="margin-bottom:3rem !important;"></ol>
+    <ol class="carousel-indicators" style="margin-bottom:2rem !important;"></ol>
 
   </section><!-- End Hero Section -->
