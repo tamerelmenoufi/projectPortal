@@ -1,25 +1,37 @@
-  <!-- ======= Hero Section ======= -->
+<?php
+if($_GET['cod']){
+  $query = "select * from banners where codigo = '{$_GET['cod']}'";
+}else{
+  $query = "select * from banners where situacao = '1' limit 2";
+}
+  $result = mysqli_query($con, $query);
+?>
+<!-- ======= Hero Section ======= -->
   <section id="hero" class="hero carousel  carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-
+    <?php
+    while($d = mysqli_fetch_object($result)){
+    ?>
     <div class="carousel-item active">
       <div class="container">
         <div class="row justify-content-center gy-6">
 
           <div class="col-lg-5 col-md-8">
-            <img src="assets/img/hero-carousel/hero-carousel-1.svg" alt="" class="img-fluid img">
+            <img src="<?=$localPainel?>src/volume/banners/<?=$d->imagem?>" alt="" class="img-fluid img">
           </div>
 
-          <div class="col-lg-9 text-center">
+          <!-- <div class="col-lg-9 text-center">
             <h2>Welcome to HeroBiz</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <a href="#featured-services" class="btn-get-started scrollto ">Get Started</a>
-          </div>
+          </div> -->
 
         </div>
       </div>
     </div><!-- End Carousel Item -->
-
-    <div class="carousel-item">
+    <?php
+    }
+    ?>
+    <!-- <div class="carousel-item">
       <div class="container">
         <div class="row justify-content-center gy-6">
 
@@ -35,7 +47,7 @@
 
         </div>
       </div>
-    </div><!-- End Carousel Item -->
+    </div>
 
     <div class="carousel-item">
       <div class="container">
@@ -53,7 +65,7 @@
 
         </div>
       </div>
-    </div><!-- End Carousel Item -->
+    </div> -->
 
     <a class="carousel-control-prev" href="#hero" role="button" data-bs-slide="prev">
       <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>

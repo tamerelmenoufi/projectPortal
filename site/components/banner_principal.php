@@ -6,11 +6,9 @@ if($_GET['cod']){
   $query = "select * from banners where situacao = '1' limit 2";
 }
   $result = mysqli_query($con, $query);
+  $d = mysqli_fetch_object($result);
 ?>
 <section id="hero-animated">
-    <?php
-    while($d = mysqli_fetch_object($result)){
-    ?>
     <div class="col-md-12" data-aos="">
       <img src="<?=$localPainel?>src/volume/banners/<?=$d->imagem?>" class="img-responsive" style="width:100%;margin-top:25px">
     </div>
@@ -28,9 +26,6 @@ if($_GET['cod']){
           </div>
         </div>
     </div>
-    <?php
-    }
-    ?>
 </section>
 
 
