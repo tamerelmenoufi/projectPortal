@@ -70,12 +70,15 @@
 
 </style>
 
-<h3>Gerenciamento do Menu Principal</h3>
-<?php
-    $_SESSION['MenuSortable'] = [];
-    MontaMenu(0);
-?>
-
+<div class="card">
+    <h5 class="card-header">Gerenciamento do Menu Principal</h5>
+    <div class="card-body">
+    <?php
+        $_SESSION['MenuSortable'] = [];
+        MontaMenu(0);
+    ?>
+    </div>
+</div>
 <script>
     $(function(){
 
