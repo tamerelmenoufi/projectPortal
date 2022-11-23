@@ -76,8 +76,8 @@
 
     $componentes = [
         'menu',
-        'banner_principal',
-        // 'banner_principal_scroll',
+        // 'banner_principal',
+        'banner_principal_scroll',
         // 'banner_principal2',
         // 'banner_principal3',
         'sobre',
@@ -103,7 +103,7 @@
 
 
     ];
- 
+
     foreach($componentes as $i => $v){
         include("components/{$v}.php");
     }
