@@ -3,8 +3,9 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Our Team</h2>
-          <p>Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p>
+          <h2>Time</h2>
+          <p> 
+Nossa equipe é formada por profissionais comprometidos com excelência nas realizações de suas atividades e focados nas necessidades de nossos clientes.</p>
         </div>
 
         <div class="row gy-5">
@@ -22,7 +23,7 @@
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <span>Chefe Executivo de Desenvolvimento</span>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -40,7 +41,7 @@
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
+                <span>Programadora Senior</span>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -58,7 +59,7 @@
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>William Anderson</h4>
-                <span>CTO</span>
+                <span>Designer de Web</span>
               </div>
             </div>
           </div><!-- End Team Member -->
