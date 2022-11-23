@@ -17,7 +17,7 @@ if($_GET['cod']){
         <div class="row justify-content-center gy-6">
 
           <div class="col-lg-5 col-md-8">
-            <img src="<?=$localPainel?>src/volume/banners/<?=$d->imagem?>" alt="" class="img-fluid img">
+            <img src="<?=$localPainel?>src/volume/banners/<?=$d->imagem?>" alt="" class="d-block w-100">
           </div>
 
           <!-- <div class="col-lg-9 text-center">
