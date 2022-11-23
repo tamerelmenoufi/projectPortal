@@ -13,21 +13,7 @@ if($_GET['cod']){
     while($d = mysqli_fetch_object($result)){
     ?>
     <div class="carousel-item <?=(($active)?'active':false)?>">
-      <div class="container">
-        <div class="row justify-content-center gy-6">
-
-          <div class="col-lg-5 col-md-8">
             <img src="<?=$localPainel?>src/volume/banners/<?=$d->imagem?>" alt="" class="d-block w-100">
-          </div>
-
-          <!-- <div class="col-lg-9 text-center">
-            <h2>Welcome to HeroBiz</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="#featured-services" class="btn-get-started scrollto ">Get Started</a>
-          </div> -->
-
-        </div>
-      </div>
     </div><!-- End Carousel Item -->
     <?php
     $active = false;
