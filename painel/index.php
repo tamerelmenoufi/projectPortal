@@ -18,12 +18,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="img/icone.png">
-    <title>Project</title>
+    <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <title>Project - Painel de controle</title>
     <?php
     include("lib/header.php");
     ?>
   </head>
+  <style> 
+body {
+
+    background:#16999a;
+   
+}
+
+</style>
+  
   <body>
 
     <div class="Carregando">
