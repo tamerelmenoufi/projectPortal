@@ -9,9 +9,10 @@ if($_GET['cod']){
 <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero carousel  carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
     <?php
+    $active = true;
     while($d = mysqli_fetch_object($result)){
     ?>
-    <div class="carousel-item active">
+    <div class="carousel-item <?=(($active)?'active':false)?>">
       <div class="container">
         <div class="row justify-content-center gy-6">
 
@@ -29,6 +30,7 @@ if($_GET['cod']){
       </div>
     </div><!-- End Carousel Item -->
     <?php
+    $active = false;
     }
     ?>
     <!-- <div class="carousel-item">
