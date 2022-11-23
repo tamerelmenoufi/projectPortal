@@ -8,25 +8,19 @@
   
 }
 
-.menu-verde:hover{
-  background: #fff;padding:10px
-}
+
 .menu-branco {
   background: #fff;padding:10px
 }
 
-.menu-branco:hover {
-  background: #159a9b;padding:10px
-}
+
 
 
 .texto-verde{
  color: #159a9b!important;
 }
 
-.texto-verde:hover{
- color: #fff!important;
-}
+
 
 
 .texto-branco{
@@ -34,9 +28,6 @@
   
 }
 
-.texto-branco:hover{
-  color: #159a9b!important;
-}
 
 
 
