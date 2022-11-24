@@ -55,7 +55,7 @@
       </div>
     </div>
 
-    <div class="row menu-cinza">
+    <div class="row  mb-1 menu-cinza">
       <div class="col">
         <a url="src/paginas_topicos/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
           <i class="fa-solid fa-pager"></i> Páginas com Toópicos
@@ -63,7 +63,7 @@
       </div>
     </div>
 
-    <div class="row menu-cinza">
+    <div class="row  mb-1 menu-cinza">
       <div class="col">
         <a url="src/noticias/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
           <i class="fa-regular fa-newspaper"></i> Notícias
@@ -71,7 +71,7 @@
       </div>
     </div>
 
-    <div class="row menu-cinza">
+    <div class="row  mb-1 menu-cinza">
       <div class="col">
         <a url="src/portifolio/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
          <i class="fa-solid fa-box-open"></i> Portifólio
@@ -80,7 +80,7 @@
     </div>
 
 
-    <div class="row menu-cinza">
+    <div class="row  mb-1 menu-cinza">
       <div class="col">
         <a url="src/depoimentos/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
            <i class="fa-solid fa-message"></i> Depoimentos
@@ -89,7 +89,7 @@
     </div>
 
 
-    <div class="row menu-cinza">
+    <div class="row  mb-1 menu-cinza">
       <div class="col">
         <a url="src/time/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
           <i class="fa-solid fa-people-carry-box"></i> Time da Empresa
