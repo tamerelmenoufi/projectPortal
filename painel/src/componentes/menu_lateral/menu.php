@@ -2,34 +2,7 @@
     include("{$_SERVER['DOCUMENT_ROOT']}/portal/painel/lib/includes.php");
 ?>
 
-<style> 
-.menu-verde{
-  background: #159a9b;padding:10px
-  
-}
-
-
-.menu-branco {
-  background: #fff;padding:10px
-}
-
-
-
-
-.texto-verde{
- color: #159a9b!important;
-}
-
-
-
-
-.texto-branco{
-  color: #fff!important;
-  
-}
-
-
-
+<style>
 
 </style>
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -39,7 +12,7 @@
   </div>
   <div class="offcanvas-body">
     <h4 style="color:#239ea0">Project Map Censo - AADESAM</h4>
- 
+
     <div class="row mb-1 menu-verde">
       <div class="col">
         <a url="src/dashboard/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
@@ -72,7 +45,7 @@
       </div>
     </div>
 
-    <div class="row mb-1  menu-verde">
+    <div class="row">
       <div class="col">
         <a url="src/paginas_topicos/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
           Páginas com Toópicos
@@ -80,7 +53,7 @@
       </div>
     </div>
 
-    <div class="row mb-1  menu-branco">
+    <div class="row">
       <div class="col">
         <a url="src/noticias/index.php" class="text-decoration-none texto-verde" data-bs-dismiss="offcanvas" aria-label="Close">
           Notícias
@@ -88,7 +61,7 @@
       </div>
     </div>
 
-    <div class="row mb-1  menu-verde">
+    <div class="row">
       <div class="col">
         <a url="src/portifolio/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
          Portifólio
@@ -97,7 +70,7 @@
     </div>
 
 
-    <div class="row mb-1  menu-branco">
+    <div class="row">
       <div class="col">
         <a url="src/depoimentos/index.php" class="text-decoration-none texto-verde" data-bs-dismiss="offcanvas" aria-label="Close">
            Depoimentos
@@ -106,14 +79,14 @@
     </div>
 
 
-    <div class="row mb-1  menu-verde">
+    <div class="row">
       <div class="col">
         <a url="src/time/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
           Time da Empresa
         </a>
       </div>
     </div>
- 
+
 
 
   </div>
