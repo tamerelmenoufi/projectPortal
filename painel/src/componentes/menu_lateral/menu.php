@@ -7,6 +7,7 @@
   padding:8px;
   font-size:15px;
   border-bottom:1px solid #d7d7d7;
+  cursor:pointer;
 }
 
 .texto-cinza{
@@ -57,7 +58,7 @@
     <div class="row  mb-1 menu-cinza">
       <div class="col">
         <a url="src/paginas_topicos/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
-          <i class="fa-solid fa-pager"></i> Páginas com Toópicos
+          <i class="fa-solid fa-pager"></i> Páginas com Tópicos
         </a>
       </div>
     </div>
