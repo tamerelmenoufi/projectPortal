@@ -1,11 +1,11 @@
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio" data-aos="fade-up">
+    <section id="servicos" class="portfolio" data-aos="fade-up">
 
       <div class="container">
 
         <div class="section-header">
-          <h2>Portfolio</h2>
-          <p>Non hic nulla eum consequatur maxime ut vero memo vero totam officiis pariatur eos dolorum sed fug dolorem est possimus esse quae repudiandae. Dolorem id enim officiis sunt deserunt esse soluta consequatur quaerat</p>
+          <h2>Serviços</h2>
+          <p>Conheça a variedade de serviços que a nossa empresa oferece!</p>
         </div>
 
       </div>
