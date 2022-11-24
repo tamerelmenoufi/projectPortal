@@ -3,6 +3,16 @@
 ?>
 
 <style>
+.menu{
+  padding:8px;
+  font-size:15px;
+  border-top: 1px solid #d7d7d7;
+  border-bottom:1px solid #d7d7d7;
+}
+
+.texto-cinza{
+  color:#5e5e5e;
+}
 
 </style>
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -13,75 +23,75 @@
   <div class="offcanvas-body">
     <h4 style="color:#239ea0">Project - Painel de Controle</h4>
 
-    <div class="row mb-1 menu-verde">
+    <div class="row mb-1 menu-cinza">
       <div class="col">
-        <a url="src/dashboard/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
+        <a url="src/dashboard/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
           <i class="fa-solid fa-chart-line"></i> Dashboard
         </a>
       </div>
     </div>
 
-    <div class="row mb-1 menu-branco">
+    <div class="row mb-1 menu-cinza">
       <div class="col">
-        <a url="src/usuarios/index.php" class="text-decoration-none texto-verde" data-bs-dismiss="offcanvas" aria-label="Close">
+        <a url="src/usuarios/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
          <i class="fa-solid fa-users"></i> Usuários do Sistema
         </a>
       </div>
     </div>
 
-    <div class="row mb-1 menu-verde">
+    <div class="row mb-1 menu-cinza">
       <div class="col">
-        <a url="src/menu/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
+        <a url="src/menu/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
           <i class="fa-solid fa-bars-staggered"></i> Menus
         </a>
       </div>
     </div>
 
-    <div class="row mb-1 menu-branco">
+    <div class="row mb-1 menu-cinza">
       <div class="col">
-        <a url="src/banners/index.php" class="text-decoration-none texto-verde" data-bs-dismiss="offcanvas" aria-label="Close">
+        <a url="src/banners/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
            <i class="fa-solid fa-panorama"></i> Banners
         </a>
       </div>
     </div>
 
-    <div class="row">
+    <div class="row menu-cinza">
       <div class="col">
-        <a url="src/paginas_topicos/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
+        <a url="src/paginas_topicos/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
           <i class="fa-solid fa-pager"></i> Páginas com Toópicos
         </a>
       </div>
     </div>
 
-    <div class="row">
+    <div class="row menu-cinza">
       <div class="col">
-        <a url="src/noticias/index.php" class="text-decoration-none texto-verde" data-bs-dismiss="offcanvas" aria-label="Close">
+        <a url="src/noticias/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
           <i class="fa-regular fa-newspaper"></i> Notícias
         </a>
       </div>
     </div>
 
-    <div class="row">
+    <div class="row menu-cinza">
       <div class="col">
-        <a url="src/portifolio/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
+        <a url="src/portifolio/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
          <i class="fa-solid fa-box-open"></i> Portifólio
         </a>
       </div>
     </div>
 
 
-    <div class="row">
+    <div class="row menu-cinza">
       <div class="col">
-        <a url="src/depoimentos/index.php" class="text-decoration-none texto-verde" data-bs-dismiss="offcanvas" aria-label="Close">
+        <a url="src/depoimentos/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
            <i class="fa-solid fa-message"></i> Depoimentos
         </a>
       </div>
     </div>
 
 
-    <div class="row">
+    <div class="row menu-cinza">
       <div class="col">
-        <a url="src/time/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
+        <a url="src/time/index.php" class="text-decoration-none texto-cinza" data-bs-dismiss="offcanvas" aria-label="Close">
           <i class="fa-solid fa-people-carry-box"></i> Time da Empresa
         </a>
       </div>
