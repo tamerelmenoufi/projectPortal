@@ -16,7 +16,7 @@
     <div class="row mb-1 menu-verde">
       <div class="col">
         <a url="src/dashboard/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
-         Dashboard
+          <i class="fa-solid fa-chart-line"></i> Dashboard
         </a>
       </div>
     </div>
@@ -24,7 +24,7 @@
     <div class="row mb-1 menu-branco">
       <div class="col">
         <a url="src/usuarios/index.php" class="text-decoration-none texto-verde" data-bs-dismiss="offcanvas" aria-label="Close">
-          Usuários do Sistema
+         <i class="fa-solid fa-users"></i> Usuários do Sistema
         </a>
       </div>
     </div>
@@ -32,7 +32,7 @@
     <div class="row mb-1 menu-verde">
       <div class="col">
         <a url="src/menu/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
-          Menus
+          <i class="fa-solid fa-bars-staggered"></i> Menus
         </a>
       </div>
     </div>
@@ -40,7 +40,7 @@
     <div class="row mb-1 menu-branco">
       <div class="col">
         <a url="src/banners/index.php" class="text-decoration-none texto-verde" data-bs-dismiss="offcanvas" aria-label="Close">
-           Banners
+           <i class="fa-solid fa-panorama"></i> Banners
         </a>
       </div>
     </div>
@@ -48,7 +48,7 @@
     <div class="row">
       <div class="col">
         <a url="src/paginas_topicos/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
-          Páginas com Toópicos
+          <i class="fa-solid fa-pager"></i> Páginas com Toópicos
         </a>
       </div>
     </div>
@@ -56,7 +56,7 @@
     <div class="row">
       <div class="col">
         <a url="src/noticias/index.php" class="text-decoration-none texto-verde" data-bs-dismiss="offcanvas" aria-label="Close">
-          Notícias
+          <i class="fa-regular fa-newspaper"></i> Notícias
         </a>
       </div>
     </div>
@@ -64,7 +64,7 @@
     <div class="row">
       <div class="col">
         <a url="src/portifolio/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
-         Portifólio
+         <i class="fa-solid fa-box-open"></i> Portifólio
         </a>
       </div>
     </div>
@@ -73,7 +73,7 @@
     <div class="row">
       <div class="col">
         <a url="src/depoimentos/index.php" class="text-decoration-none texto-verde" data-bs-dismiss="offcanvas" aria-label="Close">
-           Depoimentos
+           <i class="fa-solid fa-message"></i> Depoimentos
         </a>
       </div>
     </div>
@@ -82,7 +82,7 @@
     <div class="row">
       <div class="col">
         <a url="src/time/index.php" class="text-decoration-none texto-branco" data-bs-dismiss="offcanvas" aria-label="Close">
-          Time da Empresa
+          <i class="fa-solid fa-people-carry-box"></i> Time da Empresa
         </a>
       </div>
     </div>
