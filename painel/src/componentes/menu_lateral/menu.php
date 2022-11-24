@@ -6,7 +6,6 @@
 .menu-cinza{
   padding:8px;
   font-size:15px;
-  border-top: 1px solid #d7d7d7;
   border-bottom:1px solid #d7d7d7;
 }
 
