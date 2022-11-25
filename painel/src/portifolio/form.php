@@ -71,14 +71,14 @@
   }
 </style>
 
-<h3 class="titulo<?=$md5?>">Gerenciamento de Portifólio</h3>
+<h3 class="titulo<?=$md5?>">Gerenciamento de Serviços</h3>
 
     <form id="acaoMenu">
       <h5><?=$_SESSION['categoria_nome']?></h5>
       <div class="form-floating mb-3">
-        <input type="text" class="form-control" id="titulo" name="titulo" placeholder="Título do Banner" value="<?=$d->titulo?>">
+        <input type="text" class="form-control" id="titulo" name="titulo" placeholder="Título do Serviço" value="<?=$d->titulo?>">
         <label for="titulo">Título</label>
-        <div class="form-text">Digite o título da portifólio.</div>
+        <div class="form-text">Digite o título do serviço.</div>
       </div>
 
       <div showImage class="form-floating" style="display:<?=(($d->imagem)?'block':'none')?>">
@@ -92,7 +92,7 @@
         <input type="hidden" id="imagem_nome" name="imagem_nome" value="" />
         <input type="hidden" id="imagem" name="imagem" value="<?=$d->imagem?>" />
         <!-- <label for="url">Banner</label> -->
-        <div class="form-text mb-3">Selecione a imagem para o portifólio</div>
+        <div class="form-text mb-3">Selecione a imagem para o serviço</div>
       <!-- </div> -->
 
 
@@ -106,7 +106,7 @@
           <option value="0" <?=(($d->situacao == '0')?'selected':false)?>>Bloqueado</option>
         </select>
         <label for="situacao">Banner</label>
-        <div class="form-text">Selecione a situação do portifólio</div>
+        <div class="form-text">Selecione a situação do serviço</div>
       </div>
 
 

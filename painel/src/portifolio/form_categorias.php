@@ -71,14 +71,14 @@
   }
 </style>
 
-<h3 class="titulo<?=$md5?>">Categorias Portifólios</h3>
+<h3 class="titulo<?=$md5?>">Categorias Serviços</h3>
 
     <form id="acaoMenu">
 
       <div class="form-floating mb-3">
-        <input type="text" class="form-control" id="titulo" name="titulo" placeholder="Título do Banner" value="<?=$d->titulo?>">
+        <input type="text" class="form-control" id="titulo" name="titulo" placeholder="Título do Serviço" value="<?=$d->titulo?>">
         <label for="titulo">Título</label>
-        <div class="form-text">Digite o título do portifólio.</div>
+        <div class="form-text">Digite o título do Serviço.</div>
       </div>
 
       <div class="form-floating mb-3">
