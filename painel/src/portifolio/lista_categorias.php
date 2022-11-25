@@ -92,7 +92,7 @@
                                 categoria="<?=$d->codigo?>"
                                 nome="<?=$d->titulo?>"
                                 app="src/portifolio/lista.php"
-                            >Portifólio</a>
+                            >Serviços</a>
                         </li>
                     <?php
                         if($d->codigo != 0){
