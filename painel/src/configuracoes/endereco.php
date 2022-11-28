@@ -39,7 +39,7 @@
     </div>
 
     <button class="btn btn-primary">Editar Endereço</button>
-    <button class="btn btn-success">Editar Mapa</button>
+    <button class="btn btn-success ml-3">Editar Mapa</button>
 
 <script>
     $(function(){
