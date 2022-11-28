@@ -12,9 +12,7 @@
             <div class="row">
                 <div class="col-md-6 endereco"></div>
 
-                <div class="col-md-6">
-                    Lado oposto
-                </div>
+                <div class="col-md-6 ver_mapa"></div>
 
             </div>
 
@@ -31,6 +29,13 @@
             url:"src/configuracoes/endereco.php",
             success:function(dados){
                 $(".endereco").html(dados);
+            }
+        });
+
+        $.ajax({
+            url:"src/configuracoes/visualizar_endereco.php",
+            success:function(dados){
+                $(".ver_mapa").html(dados);
             }
         });
 
