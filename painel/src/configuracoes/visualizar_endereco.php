@@ -27,7 +27,6 @@
         z-index:0;
     }
 </style>
-<h4>Visualizar Endereço</h4>
     <div id="map<?=$md5?>"></div>
 
     <script>
