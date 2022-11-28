@@ -48,16 +48,23 @@
             editar_endereco
 
     >Editar Endereço</button>
-    <button class="btn btn-success ml-3">Editar Mapa</button>
+    <button
+            class="btn btn-success ml-3"
+            data-bs-toggle="offcanvas"
+            href="#offcanvasDireita"
+            role="button"
+            aria-controls="offcanvasDireita"
+            editar_mapa
+    >Editar Mapa</button>
 
 <script>
     $(function(){
 
         Carregando('none');
 
-        $("button[editar_endereco]").click(function(){
+        $("button[editar_mapa]").click(function(){
             $.ajax({
-                url:"src/configuracoes/editar_endereco.php",
+                url:"src/configuracoes/editar_mapa.php",
                 success:function(dados){
                     $(".LateralDireita").html(dados);
                 }

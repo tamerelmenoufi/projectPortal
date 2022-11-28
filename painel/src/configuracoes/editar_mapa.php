@@ -96,7 +96,7 @@
             coordenadas = `[${latLng.lat()},${latLng.lng()}]`;
 
             $.ajax({
-                url:"src/configuracoes/editar_endereco.php",
+                url:"src/configuracoes/editar_mapa.php",
                 type:"POST",
                 data:{
                     coordenadas,
