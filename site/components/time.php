@@ -16,7 +16,7 @@ Nossa equipe é formada por profissionais comprometidos com excelência nas real
             $result = mysqli_query($con, $query);
             while($d = mysqli_fetch_object($result)){
 
-              $contatos = json_decode($d->canais_contatos);
+              $midias = json_decode($d->canais_contatos);
 
         ?>
           <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
@@ -26,11 +26,27 @@ Nossa equipe é formada por profissionais comprometidos com excelência nas real
               </div>
               <div class="member-info">
                 <div class="social">
-                  <?php print_r($contatos); ?>
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <?php
+                    $midias_sociais = [
+                      'facebook' => 'https://www.facebook.com/',
+                      'twitter' => 'https://twitter.com/',
+                      'instagram' => 'https://www.instagram.com/',
+                      'youtube' => 'https://www.youtube.com/',
+                      'linkedin' => 'https://www.linkedin.com/',
+                      'whatsapp' => 'https://api.whatsapp.com/'
+                    ];
+
+                    foreach($midias_sociais as $ind => $url){
+                      if($ind->$midias){
+                  ?>
+                  <a href="<?=$url.$ind->$midias?>" target="_black"><i class="bi bi-<?=$ind?>"></i></a>
+                  <?php
+                      }
+                    }
+                  ?>
+                  <!-- <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a> -->
                 </div>
                 <h4><?=$d->nome?></h4>
                 <span><?=$d->cargo?></span>
