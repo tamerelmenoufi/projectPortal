@@ -38,7 +38,16 @@
         <div class="form-control" ><?=$d->referencia?></div>
     </div>
 
-    <button class="btn btn-primary">Editar Endereço</button>
+    <button
+            class="btn btn-primary"
+
+            data-bs-toggle="offcanvas"
+            href="#offcanvasDireita"
+            role="button"
+            aria-controls="offcanvasDireita"
+            editar_endereco
+
+    >Editar Endereço</button>
     <button class="btn btn-success ml-3">Editar Mapa</button>
 
 <script>
@@ -46,7 +55,14 @@
 
         Carregando('none');
 
-
+        $("button[editar_endereco]").click(function(){
+            $.ajax({
+                url:"src/configuracoes/editar_endereco.php",
+                success:function(dados){
+                    $(".LateralDireita").html(dados);
+                }
+            })
+        });
 
     })
 </script>
