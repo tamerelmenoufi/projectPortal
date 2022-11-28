@@ -37,9 +37,9 @@ Nossa equipe é formada por profissionais comprometidos com excelência nas real
                     ];
 
                     foreach($midias_sociais as $ind => $url){
-                      if($ind->$midias->$ind){
+                      if($midias->$ind){
                   ?>
-                  <a href="<?=$url.$ind->$midias?>" target="_black"><i class="bi bi-<?=$ind?>"></i></a>
+                  <a href="<?=$url.$midias->$ind?>" target="_black"><i class="bi bi-<?=$ind?>"></i></a>
                   <?php
                       }
                     }
