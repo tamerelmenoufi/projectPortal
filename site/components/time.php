@@ -4,29 +4,46 @@
 
         <div class="section-header">
           <h2>Time</h2>
-          <p> 
+          <p>
 Nossa equipe é formada por profissionais comprometidos com excelência nas realizações de suas atividades e focados nas necessidades de nossos clientes.</p>
         </div>
 
         <div class="row gy-5">
 
+
+        <?php
+            $query = "select * from time where situacao = '1' order by codigo desc";
+            $result = mysqli_query($con, $query);
+            while($d = mysqli_fetch_object($result)){
+
+              $contatos = json_decode($d->canais_contatos);
+
+        ?>
           <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <img src="<?=$localPainel?>src/volume/time/<?=$d->imagem?>" class="img-fluid" alt="">
               </div>
               <div class="member-info">
                 <div class="social">
+                  <?php print_r($contatos); ?>
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
-                <h4>Walter White</h4>
-                <span>Chefe Executivo de Desenvolvimento</span>
+                <h4><?=$d->nome?></h4>
+                <span><?=$d->cargo?></span>
               </div>
             </div>
-          </div><!-- End Team Member -->
+          </div>
+          <?php
+            }
+
+            /*
+          ?>
+
+          <!-- End Team Member -->
 
           <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
             <div class="team-member">
@@ -63,7 +80,9 @@ Nossa equipe é formada por profissionais comprometidos com excelência nas real
               </div>
             </div>
           </div><!-- End Team Member -->
-
+            <?php
+            //*/
+            ?>
         </div>
 
       </div>
