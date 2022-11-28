@@ -26,14 +26,8 @@
         opacity:0.6;
         z-index:0;
     }
-    .Titulo<?=$md5?>{
-        position:absolute;
-        left:60px;
-        top:8px;
-        z-index:0;
-    }
 </style>
-<h4 class="Titulo<?=$md5?>">Visualizar Endereço</h4>
+<h4>Visualizar Endereço</h4>
     <div id="map<?=$md5?>"></div>
 
     <script>
