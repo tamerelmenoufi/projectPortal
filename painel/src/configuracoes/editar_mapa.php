@@ -45,7 +45,7 @@
 </style>
 
     <div id="topo<?=$md5?>">
-        <h4>Loca Endereço</h4>
+        <h4>Endereço no mapa</h4>
     </div>
     <div id="map<?=$md5?>"></div>
 
