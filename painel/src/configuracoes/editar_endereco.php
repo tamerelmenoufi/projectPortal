@@ -10,6 +10,7 @@
         foreach($dados as $i => $v){
           $campos[] = "{$i} = '".addslashes($v)."'";
         }
+        $campos[] = "coordenadas = ''";
 
         $query = "update configuracoes set  ".implode(", ",$campos)." WHERE codigo = '1'";
         mysqli_query($con, $query);
@@ -88,6 +89,12 @@
                         url:"src/configuracoes/endereco.php",
                         success:function(dados){
                             $(".endereco").html(dados);
+                        }
+                    });
+                    $.ajax({
+                        url:"src/configuracoes/visualizar_mapa.php",
+                        success:function(dados){
+                            $(".ver_mapa").html(dados);
                         }
                     });
                 }
