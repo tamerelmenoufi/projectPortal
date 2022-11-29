@@ -80,7 +80,7 @@
             data.push(name:'referencia', value:$("#referencia").val());
             data.push(name:'acao', value:'endereco');
             $.ajax({
-                url:"src/configuracoes/editar_mapa.php",
+                url:"src/configuracoes/editar_endereco.php",
                 type:"POST",
                 data,
                 success:function(dados){
