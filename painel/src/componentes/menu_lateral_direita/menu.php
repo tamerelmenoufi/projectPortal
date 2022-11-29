@@ -10,7 +10,7 @@
     style="--bs-offcanvas-width:500px;"
   >
   <div class="offcanvas-header">
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <button type="button" class="btn-close closeLateralDireita" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body LateralDireita"></div>
 </div>
@@ -39,7 +39,7 @@ aria-controls="offcanvasDireita" -->
     $("#offcanvasDireita").css("--bs-offcanvas-width","600px")
   }
 
-  $("#offcanvasDireita").click(function(){
+  $(".closeLateralDireita").click(function(){
     $(".LateralDireita").html('');
   });
 
