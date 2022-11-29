@@ -62,6 +62,15 @@
 
         Carregando('none');
 
+        $("button[editar_endereco]").click(function(){
+            $.ajax({
+                url:"src/configuracoes/editar_endereco.php",
+                success:function(dados){
+                    $(".LateralDireita").html(dados);
+                }
+            })
+        });
+
         $("button[editar_mapa]").click(function(){
             $.ajax({
                 url:"src/configuracoes/editar_mapa.php",
