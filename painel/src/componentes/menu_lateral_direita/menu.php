@@ -39,5 +39,8 @@ aria-controls="offcanvasDireita" -->
     $("#offcanvasDireita").css("--bs-offcanvas-width","600px")
   }
 
+  $("#offcanvasDireita").click(function(){
+    $(".LateralDireita").html('');
+  });
 
 </script>
