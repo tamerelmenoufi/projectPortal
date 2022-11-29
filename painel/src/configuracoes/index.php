@@ -20,6 +20,21 @@
     </div>
 </div>
 
+
+<div class="m-3">
+    <div class="card">
+        <h5 class="card-header">Contatos</h5>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6 contatos"></div>
+
+                <div class="col-md-6 midias_sociais"></div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
 <script>
     $(function(){
 
@@ -39,5 +54,19 @@
             }
         });
 
+
+        $.ajax({
+            url:"src/configuracoes/contatos.php",
+            success:function(dados){
+                $(".contatos").html(dados);
+            }
+        });
+
+        $.ajax({
+            url:"src/configuracoes/midias_sociais.php",
+            success:function(dados){
+                $(".midias_sociais").html(dados);
+            }
+        });
     })
 </script>
