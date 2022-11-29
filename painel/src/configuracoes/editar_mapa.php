@@ -104,7 +104,7 @@
                 },
                 success:function(dados){
                     $.ajax({
-                        url:"src/configuracoes/visualizar_endereco.php",
+                        url:"src/configuracoes/visualizar_mapa.php",
                         success:function(dados){
                             $(".ver_mapa").html(dados);
                         }
