@@ -28,11 +28,6 @@
     </div>
 
 
-    <div class="mb-3">
-        <label class="form-label">Complemento</label>
-        <div class="form-control" ><?=$d->complemento?></div>
-    </div>
-
     <button
             class="btn btn-primary"
 
