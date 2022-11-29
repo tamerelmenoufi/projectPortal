@@ -72,13 +72,13 @@
         $("button[salvar_endereco]").click(function(){
             Carregando();
             data = [];
-            data.push(name:'cep', value:$("#cep").val());
-            data.push(name:'rua', value:$("#rua").val());
-            data.push(name:'numero', value:$("#numero").val());
-            data.push(name:'bairro', value:$("#bairro").val());
-            data.push(name:'complemento', value:$("#complemento").val());
-            data.push(name:'referencia', value:$("#referencia").val());
-            data.push(name:'acao', value:'endereco');
+            data.push([name:'cep', value:$("#cep").val()]);
+            data.push([name:'rua', value:$("#rua").val()]);
+            data.push([name:'numero', value:$("#numero").val()]);
+            data.push([name:'bairro', value:$("#bairro").val()]);
+            data.push([name:'complemento', value:$("#complemento").val()]);
+            data.push([name:'referencia', value:$("#referencia").val()]);
+            data.push([name:'acao', value:'endereco']);
             $.ajax({
                 url:"src/configuracoes/editar_endereco.php",
                 type:"POST",
