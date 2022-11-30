@@ -118,7 +118,7 @@
       ?>
       <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav>
-      <a class="btn-getstarted scrollto" href="index.php#about"><i class="fa-regular fa-hand-pointer"></i> Iniciar</a>
+      <!-- <a class="btn-getstarted scrollto" href="index.php#about"><i class="fa-regular fa-hand-pointer"></i> Iniciar</a> -->
 
     </div>
   </header><!-- End Header -->
