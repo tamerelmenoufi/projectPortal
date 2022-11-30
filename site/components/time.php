@@ -33,7 +33,7 @@ Nossa equipe é formada por profissionais comprometidos com excelência nas real
                       'instagram' => 'https://www.instagram.com/',
                       'youtube' => 'https://www.youtube.com/',
                       'linkedin' => 'https://www.linkedin.com/',
-                      'whatsapp' => 'https://api.whatsapp.com/'
+                      'whatsapp' => 'https://api.whatsapp.com/send?phone='
                     ];
 
                     foreach($midias_sociais as $ind => $url){
