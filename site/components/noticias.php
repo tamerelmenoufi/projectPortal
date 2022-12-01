@@ -25,11 +25,7 @@
               </div> -->
               <h3 class="post-title" style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;"><?=$d->titulo?></h3>
               <p style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;"><?=strip_tags(str_replace('<',' <',str_replace('>','> ',$d->materia)))?></p>
-<<<<<<< HEAD
-              <a href="blog-details.html" class="readmore stretched-link"><span>Veja mais</span><i class="bi bi-arrow-right"></i></a>
-=======
               <a href="#" class="readmore stretched-link"><span>Leia Mais</span><i class="bi bi-arrow-right"></i></a>
->>>>>>> ddff7a9329f03ac868ce632d75d884a669c07797
             </div>
           </div>
 
