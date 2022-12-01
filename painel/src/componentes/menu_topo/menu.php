@@ -31,7 +31,7 @@
         </ul>
 
         <ul class="navbar-nav">
-        <a class="nav-link dropdown-toggle d-block d-sm-none" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="nav-link dropdown-toggle d-none d-sm-block" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <?=$_SESSION['ProjectPainel']->nome?> <i class="fa-solid fa-user"></i>
                 </a>
 
