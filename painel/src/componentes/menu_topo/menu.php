@@ -15,9 +15,7 @@
     <div  class=".d-none .d-xs-block">
     <img src="img/logomenup.png" style="height:40px; margin-right:20px;" >
 </div>
-<div  class=".d-block .d-sm-none">
-      <img  src="img/logopainel.png" style="height:40px; margin-right:20px;" >
-  </div>
+
 
       <i class="fa-solid fa-bars"></i>
     </div>
