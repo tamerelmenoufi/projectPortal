@@ -30,7 +30,7 @@
     <div id="map<?=$md5?>"></div>
 
     <script>
-        Carregando('none');
+        // Carregando('none');
         coordenadas<?=$md5?> = '<?="{$coordenadas}"?>';
         endereco<?=$md5?> = "<?=$endereco?>";
         geocoder<?=$md5?> = new google.maps.Geocoder();
