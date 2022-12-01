@@ -12,7 +12,7 @@
   <div class="container-fluid">
     <div data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
      
-    <div  class=".d-none .d-sm-block">
+    <div  class=".d-none .d-xs-block">
     <img src="img/logomenup.png" style="height:40px; margin-right:20px;" >
 </div>
 <div  class=".d-block .d-sm-none">
