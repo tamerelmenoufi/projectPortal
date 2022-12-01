@@ -35,7 +35,7 @@
                   <?=$_SESSION['ProjectPainel']->nome?> <i class="fa-solid fa-user"></i>
                 </a>
 
- <a class="nav-link dropdown-toggle d-none d-md-block" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <a class="nav-link dropdown-toggle d-md-none d-lg-block" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                    <i class="fa-solid fa-user"></i>
                 </a>
                 
