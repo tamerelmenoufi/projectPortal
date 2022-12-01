@@ -32,7 +32,7 @@
                 >Novo</button>
             </div>
 
-
+<div class="table-responsive">
             <table class="table table-striped table-hover">
               <thead>
                 <tr>
@@ -89,6 +89,7 @@
                 ?>
               </tbody>
             </table>
+                </div>
           </div>
         </div>
       </div>
