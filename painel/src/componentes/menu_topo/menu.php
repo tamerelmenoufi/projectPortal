@@ -34,8 +34,8 @@
         <ul class="navbar-nav">
             <li class="nav-item dropdown">
               
-            <a class="nav-link dropdown-toggle " href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                  <span class="d-none d-sm-block"><?=$_SESSION['ProjectPainel']->nome?></span> <i class="fa-solid fa-user"></i>
+            <a class="nav-link dropdown-toggle " href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <font class="d-none d-sm-block"><?=$_SESSION['ProjectPainel']->nome?></font> <i class="fa-solid fa-user"></i>
                 </a>
                 <ul class="dropdown-menu  dropdown-menu-end" aria-labelledby="navbarScrollingDropdown">
                     <li class="MenuLogin">
