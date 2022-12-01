@@ -11,7 +11,12 @@
 <nav class="navbar navbar-expand bg-light">
   <div class="container-fluid">
     <div data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-      <img src="img/logomenup.png" style="height:40px; margin-right:20px;" >
+     
+    <div  class=".d-none .d-xs-block">
+    <img src="img/logomenup.png" style="height:40px; margin-right:20px;" >
+</div>
+
+
       <i class="fa-solid fa-bars"></i>
     </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
