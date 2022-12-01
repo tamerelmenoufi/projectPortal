@@ -16,7 +16,6 @@
     <img src="img/logomenup.png" style="height:40px; margin-right:20px;" >
 </div>
 
-
       <i class="fa-solid fa-bars"></i>
     </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,9 +32,8 @@
 
         <ul class="navbar-nav">
             <li class="nav-item dropdown">
-              
-            <a class="nav-link dropdown-toggle " href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <span class="d-none d-sm-block"><?=$_SESSION['ProjectPainel']->nome?><i class="fa-solid fa-user" style="padding-left:170px"></i></span> 
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <?=$_SESSION['ProjectPainel']->nome?> <i class="fa-solid fa-user"></i>
                 </a>
                 <ul class="dropdown-menu  dropdown-menu-end" aria-labelledby="navbarScrollingDropdown">
                     <li class="MenuLogin">
