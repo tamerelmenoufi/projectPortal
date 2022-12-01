@@ -65,6 +65,7 @@
                   <td>
                     <button
                       class="btn btn-primary"
+                      style="margin-bottom:1px"
                       edit="<?=$d->codigo?>"
                       data-bs-toggle="offcanvas"
                       href="#offcanvasDireita"
