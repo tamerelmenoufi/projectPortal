@@ -1,23 +1,28 @@
-    <!-- ======= Contact Section ======= -->
+<?php
+
+    $query = "select * from configuracoes where codigo = '1'";
+    $result = mysqli_query($con, $query);
+    $d = mysqli_fetch_object($result);
+?><!-- ======= Contact Section ======= -->
     <style>
-    .contact .php-email-form textarea {
-  padding: 10px 12px;
-  height: 115px!important;
-}
+      .contact .php-email-form textarea {
+        padding: 10px 12px;
+        height: 115px!important;
+      }
     </style>
-    
+
     <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-header">
           <h2>Contatos</h2>
-         
+
         </div>
 
       </div>
 
-      <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+      <div class="exibir_mapa">
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe> -->
       </div><!-- End Google Maps -->
 
       <div class="container">
@@ -28,15 +33,15 @@
 
             <div class="info">
               <h3>Entre em contato</h3>
-              
 
-          
+
+
 
               <div class="info-item d-flex">
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h4>E-mail:</h4>
-                  <p>atendimento@project.com</p>
+                  <p><?=$d->email?></p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -44,7 +49,7 @@
                 <i class="bi bi-phone flex-shrink-0"></i>
                 <div>
                   <h4>Telefone:</h4>
-                  <p>+1 5589 55488 55</p>
+                  <p><?=$d->telefone?></p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -62,7 +67,7 @@
                   <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" required>
                 </div>
               </div>
-              
+
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" placeholder="Sua mensagem" required></textarea>
               </div>
@@ -79,3 +84,15 @@
 
       </div>
     </section><!-- End Contact Section -->
+
+
+    <script>
+      $(function(){
+        $.ajax({
+          url:"plugins/visualizar_mapa.php",
+          success:function(dados){
+            $(".exibir_mapa").html(dados);
+          }
+        });
+      })
+    </script>
