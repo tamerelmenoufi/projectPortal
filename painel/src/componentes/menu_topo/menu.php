@@ -32,7 +32,7 @@
 
         <ul class="navbar-nav">
         <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <span class="d-none d-sm-block" ><?=$_SESSION['ProjectPainel']->nome?></span> <i class="fa-solid fa-user"></i>
+                  <i class="fa-solid fa-user"></i><span class="d-none d-sm-block" ><?=$_SESSION['ProjectPainel']->nome?></span> 
                 </a>
             <li class="nav-item dropdown">
                 
