@@ -21,7 +21,7 @@
         padding:10px;
         font-size:20px;
     }
-    .itemMenu:hoveer{
+    .itemMenu:hover{
         color:#3279fc;
         font-weight:bold;
         font-size:20px;
@@ -33,20 +33,20 @@
     .itemMenu i{
         color:#fff;
     }
-    .itemMenu:hoveer i.editar{
+    .itemMenu:hover i.editar{
         color:green;
         font-size:20px;
         cursor:pointer;
         font-weight:bold;
     }
-    .itemMenu:hoveer i.adicionar{
+    .itemMenu:hover i.adicionar{
         color:blue;
         font-size:20px;
         cursor:pointer;
         font-weight:bold;
         margin-right:10px;
     }
-    .itemMenu:hoveer i.excluir{
+    .itemMenu:hover i.excluir{
         color:red;
         font-size:20px;
         cursor:pointer;
@@ -54,7 +54,7 @@
         margin-right:40px;
     }
 
-    .itemMenu:hoveer i.excluir_blq{
+    .itemMenu:hover i.excluir_blq{
         color:#ff9b93;
         font-size:20px;
         cursor:pointer;
