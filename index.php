@@ -25,7 +25,17 @@
         <div><i class="fa-solid fa-rotate fa-pulse"></i></div>
     </div>
 
-    <div class="CorpoApp"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" style="text-align:center">
+                    <img src="painel/img/logopainel.png" class="img-fluid">
+                </div>
+                <div class="col-md-6" style="text-align:center">
+                    <h1>SITE EM DESENVOLVIMENTO</h1>
+                </div>
+            </div>
+        </div>
 
     <?php
     include("./painel/lib/footer.php");
