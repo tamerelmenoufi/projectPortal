@@ -12,13 +12,14 @@
   <div class="container-fluid">
     <div data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
      
-    <div  class=".d-none .d-xs-block">
-    <img src="img/logomenup.png" style="height:40px; margin-right:20px;" >
-</div>
-
+    
 
       <i class="fa-solid fa-bars"></i>
     </div>
+
+    <div  class="d-none d-sm-block">
+    <img src="img/logomenup.png" style="height:40px; margin-right:20px;" >
+</div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,10 +33,16 @@
         </ul>
 
         <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="nav-link dropdown-toggle d-none d-sm-block" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <?=$_SESSION['ProjectPainel']->nome?> <i class="fa-solid fa-user"></i>
                 </a>
+
+ <a class="nav-link dropdown-toggle d-block d-sm-none" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   <i class="fa-solid fa-user"></i>
+                </a>
+                
+            <li class="nav-item dropdown">
+                
                 <ul class="dropdown-menu  dropdown-menu-end" aria-labelledby="navbarScrollingDropdown">
                     <li class="MenuLogin">
                       <ul class="list-group  list-group-flush">
