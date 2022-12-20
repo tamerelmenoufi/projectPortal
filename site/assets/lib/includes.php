@@ -1,5 +1,6 @@
 <?php
     date_default_timezone_set("America/Manaus");
+    include("/appinc/cBarb.php");
     include("/appinc/connect.php");
     $con = AppConnect('portal');
     include("classes.php");
