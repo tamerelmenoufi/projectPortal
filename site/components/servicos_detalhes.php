@@ -1,9 +1,23 @@
+    
+    <style>
+
+.botaoazul{
+  background: var(--color-primary);
+border: 0;
+padding: 10px 35px;
+color: #fff;
+transition: 0.4s;
+border-radius: 0;
+}
+
+</style>
+    
     <!-- ======= Breadcrumbs ======= -->
     <div style="font-weight:450;background:#0ca3a4;color:#fff" class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2 style="">Titulo do serviço</h2>
+          <h2 style="">Titulo do Serviço</h2>
           
         </div>
 
@@ -264,7 +278,7 @@
               <!-- End sidebar categories-->
 
               <div class="sidebar-item recent-posts">
-                <h3 class="sidebar-title">Recent Posts</h3>
+                <h3 class="sidebar-title">Portfólio</h3>
 
                 <div class="mt-3">
 
@@ -309,7 +323,7 @@
                   </div><!-- End recent post item-->
 
                 </div>
-
+               <center style="margin-top:20px"> <button type="button" class="btn btn-outline-info">Outros Serviços</button></center>
               </div><!-- End sidebar recent posts-->
 
               <!-- <div class="sidebar-item tags">
@@ -335,5 +349,19 @@
           </div>
         </div>
 
+        <div class="col-lg-12">
+    
+    <button style="margin-top:10px"  type="button"  class="float-end  botaoazul">
+                 <a style="color:#fff" href="javascript:history.back()">Voltar</a></button>
+ </div>
+ 
+
+
       </div>
     </section><!-- End Blog Details Section -->
+
+
+  
+
+
+              
