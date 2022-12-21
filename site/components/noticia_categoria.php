@@ -1,12 +1,30 @@
     <!-- ======= Recent Blog Posts Section ======= -->
     <section id="recent-blog-posts" class="recent-blog-posts">
 
-      <div class="container" data-aos="fade-up">
+    <style>
 
-        <div class="section-header">
-          <h2>Novidades</h2>
-          <p>Fique antenado com as novidades no mundo da tecnologia</p>
+.botaoazul{
+  background: var(--color-primary);
+border: 0;
+padding: 10px 35px;
+color: #fff;
+transition: 0.4s;
+border-radius: 0;
+}
+
+</style>
+    
+    <!-- ======= Breadcrumbs ======= -->
+    <div style="font-weight:450;background:#0ca3a4;color:#fff" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2 style="">Todas as Noticias</h2>
+          
         </div>
+
+      </div>
+    </div><!-- End Breadcrumbs -->
 
         <div class="row">
 
@@ -61,6 +79,13 @@
 
         </div>
 
+
+        <div class="col-lg-12">
+    
+    <button style="margin-top:10px"  type="button"  class="float-end  botaoazul">
+                 <a style="color:#fff" href="javascript:history.back()">Voltar</a></button>
+ </div>
+ 
       </div>
 
     </section><!-- End Recent Blog Posts Section -->
