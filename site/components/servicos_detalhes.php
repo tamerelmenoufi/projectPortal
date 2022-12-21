@@ -3,7 +3,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2 style="">Titulo da Noticia</h2>
+          <h2 style="">Titulo do serviço</h2>
           
         </div>
 
@@ -264,7 +264,7 @@
               <!-- End sidebar categories-->
 
               <div class="sidebar-item recent-posts">
-                <h3 class="sidebar-title">Ultimas noticias</h3>
+                <h3 class="sidebar-title">Recent Posts</h3>
 
                 <div class="mt-3">
 
