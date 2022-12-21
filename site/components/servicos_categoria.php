@@ -5,7 +5,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2 style="">Todas as Noticias</h2>
+          <h2 style="">Todas os Serviços</h2>
           
         </div>
 
@@ -165,7 +165,11 @@
 
         </div>
 
-
-        <center style="margin-top:20px"> <button type="button" class="btn btn-outline-info">Outros Serviços</button></center>
+        <div class="col-lg-12">
+    
+    <button style="margin-top:10px"  type="button"  class="float-end  botaoazul">
+                 <a style="color:#fff" href="javascript:history.back()">Voltar</a></button>
+ </div>
+       
       </div>
     </section><!-- End Portfolio Section -->
