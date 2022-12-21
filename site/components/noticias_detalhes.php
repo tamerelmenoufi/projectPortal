@@ -6,7 +6,7 @@
       background: var(--color-primary);
   border: 0;
   padding: 10px 35px;
-  color: var(--color-white);
+  color: #fff;
   transition: 0.4s;
   border-radius: 0;"
     }
@@ -43,9 +43,9 @@
 
         <div class="row g-5">
 
-          <div class="col-lg-12 clearfix">
+          <div class="col-lg-12 ">
 
-            <article class="blog-details">
+            <article class="blog-details clearfix">
 
               <div class="post-img">
                 <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
