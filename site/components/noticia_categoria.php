@@ -79,8 +79,9 @@ border-radius: 0;
 
         </div>
 
-
-        <center style="margin-top:15px">
+        <div style="" class="col-lg-4">
+        </div>
+        <div style="margin-top:15px" class="col-lg-6">
 <nav aria-label="...">
   <ul class="pagination">
     <li class="page-item disabled">
@@ -96,7 +97,7 @@ border-radius: 0;
     </li>
   </ul>
 </nav>
-        </center>
+        </div>
 
 
         <div class="col-lg-12" style="padding:10px">
