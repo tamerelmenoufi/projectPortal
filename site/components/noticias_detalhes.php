@@ -11,13 +11,7 @@
   border-radius: 0;"
     }
 
-    .botaoazul:hover{
-  border: solid 1px var(--color-primary);
-  padding: 10px 35px;
-  color: var(--color-primary);
-  transition: 0.4s;
-  border-radius: 0;"
-    }
+   
 
    </style>
 
