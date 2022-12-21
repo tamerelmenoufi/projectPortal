@@ -96,8 +96,9 @@ border-radius: 0;
 
         <div class="col-lg-12" style="padding:10px">
     
+    <a style="color:#fff" href="javascript:history.back()"> 
     <button style="margin-top:10px"  type="button"  class="float-end  botaoazul">
-                 <a style="color:#fff" href="javascript:history.back()">Voltar</a></button>
+                Voltar</button></a>
  </div>
 </div>
 
