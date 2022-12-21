@@ -94,7 +94,8 @@
                 </p>
 
 
-                <button href="index.php" type="button"  class="float-end btn btn-outline-light botaoazul">Voltar</button>
+                <button  type="button"  class="float-end btn btn-outline-light botaoazul">
+                <a href="javascript:history.back()">Voltar</a></button>
               </div><!-- End post content -->
 
             
