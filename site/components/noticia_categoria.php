@@ -79,10 +79,12 @@ border-radius: 0;
 
         </div>
 
-        <nav aria-label="...">
+
+        <center style="margin-top:15px">
+<nav aria-label="...">
   <ul class="pagination">
     <li class="page-item disabled">
-      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
     </li>
     <li class="page-item"><a class="page-link" href="#">1</a></li>
     <li class="page-item active" aria-current="page">
@@ -90,10 +92,11 @@ border-radius: 0;
     </li>
     <li class="page-item"><a class="page-link" href="#">3</a></li>
     <li class="page-item">
-      <a class="page-link" href="#">Next</a>
+      <a class="page-link" href="#">Proximo</a>
     </li>
   </ul>
 </nav>
+        </center>
 
 
         <div class="col-lg-12" style="padding:10px">
