@@ -25,7 +25,7 @@ border-radius: 0;
 
       </div>
     </div><!-- End Breadcrumbs -->
-
+ <div class="container aos-init aos-animate">
         <div class="row">
 
           <?php
@@ -87,6 +87,7 @@ border-radius: 0;
     <button style="margin-top:10px"  type="button"  class="float-end  botaoazul">
                  <a style="color:#fff" href="javascript:history.back()">Voltar</a></button>
  </div>
+</div>
 
       </div>
 
