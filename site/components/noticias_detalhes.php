@@ -71,7 +71,8 @@
                 </p>
 
 
-                <button href="index.php" type="button" class="btn btn-outline-light">Voltar</button>
+                <button href="index.php" type="button"  class="pull-right" style="background-color: #16999a;
+border: 1px solid #16999a;" class="btn btn-outline-light">Voltar</button>
               </div><!-- End post content -->
 
             
