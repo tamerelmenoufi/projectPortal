@@ -1,4 +1,27 @@
     <!-- ======= Breadcrumbs ======= -->
+   
+   <style>
+
+    .botaoazul{
+      background: var(--color-primary);
+  border: 0;
+  padding: 10px 35px;
+  color: var(--color-white);
+  transition: 0.4s;
+  border-radius: 0;"
+    }
+
+    .botaoazul:hover{
+  border: solid 1px var(--color-primary);
+  padding: 10px 35px;
+  color: var(--color-primary);
+  transition: 0.4s;
+  border-radius: 0;"
+    }
+
+   </style>
+
+
     <div style="font-weight:450;background:#0ca3a4;color:#fff" class="breadcrumbs">
       <div class="container">
 
@@ -71,15 +94,7 @@
                 </p>
 
 
-                <button href="index.php" type="button"  class="pull-right" 
-                style="  background: var(--color-primary);
-  border: 0;
-  padding: 13px 50px;
-  color: var(--color-white);
-  transition: 0.4s;
-  border-radius: 0;"
-
-class="btn btn-outline-light">Voltar</button>
+                <button href="index.php" type="button"  class="float-end btn btn-outline-light botaoazul">Voltar</button>
               </div><!-- End post content -->
 
             
