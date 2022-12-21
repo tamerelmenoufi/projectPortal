@@ -79,9 +79,10 @@ border-radius: 0;
 
         </div>
 
-       
+
+        <center style="margin-top:15px">
 <nav aria-label="...">
-  <ul class="pagination">
+  <ul style="margin:0px" class="pagination">
     <li class="page-item disabled">
       <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
     </li>
@@ -95,7 +96,7 @@ border-radius: 0;
     </li>
   </ul>
 </nav>
-       
+        </center>
 
 
         <div class="col-lg-12" style="padding:10px">
