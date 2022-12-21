@@ -89,6 +89,21 @@
 
             </article><!-- End blog post -->
 
+
+              <div id="comment-4" class="comment">
+                <div class="d-flex">
+                  <div class="comment-img"><img src="assets/img/blog/comments-6.jpg" alt=""></div>
+                  <div>
+                    <h5><a href="">Kay Duggan</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                    <time datetime="2020-01-01">01 Jan,2022</time>
+                    <p>
+                      Dolorem atque aut. Omnis doloremque blanditiis quia eum porro quis ut velit tempore. Cumque sed quia ut maxime. Est ad aut cum. Ut exercitationem non in fugiat.
+                    </p>
+                  </div>
+                </div>
+
+              </div><!-- End comment #4 -->
+
               <div class="reply-form">
 
                 <h4>Leave a Reply</h4>
@@ -125,6 +140,26 @@
           <div class="col-lg-4">
 
             <div class="sidebar">
+
+              <div class="sidebar-item search-form">
+                <h3 class="sidebar-title">Search</h3>
+                <form action="" class="mt-3">
+                  <input type="text">
+                  <button type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </div><!-- End sidebar search formn-->
+
+              <div class="sidebar-item categories">
+                <h3 class="sidebar-title">Categories</h3>
+                <ul class="mt-3">
+                  <li><a href="#">General <span>(25)</span></a></li>
+                  <li><a href="#">Lifestyle <span>(12)</span></a></li>
+                  <li><a href="#">Travel <span>(5)</span></a></li>
+                  <li><a href="#">Design <span>(22)</span></a></li>
+                  <li><a href="#">Creative <span>(8)</span></a></li>
+                  <li><a href="#">Educaion <span>(14)</span></a></li>
+                </ul>
+              </div><!-- End sidebar categories-->
 
               <div class="sidebar-item recent-posts">
                 <h3 class="sidebar-title">Recent Posts</h3>
