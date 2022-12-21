@@ -93,7 +93,7 @@
           </div><!-- End post content -->
         </div>
         
-        <div class="col-lg-8">
+        <div class="col-lg-4">
         <div class="sidebar-item recent-posts">
                 <h3 class="sidebar-title">Recent Posts</h3>
 
