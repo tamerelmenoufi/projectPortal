@@ -10,7 +10,7 @@
   transition: 0.4s;
   border-radius: 0;
     }
-    
+
    </style>
 
 
@@ -87,7 +87,7 @@
 
 
                 <button  type="button"  class="float-end  botaoazul">
-                <a href="javascript:history.back()">Voltar</a></button>
+                <a style="color:#fff" href="javascript:history.back()">Voltar</a></button>
               </div><!-- End post content -->
 
             
