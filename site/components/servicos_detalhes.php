@@ -17,7 +17,7 @@ border-radius: 0;
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2 style="">Titulo da Noticia</h2>
+          <h2 style="">Titulo do Serviço</h2>
           
         </div>
 
@@ -278,7 +278,7 @@ border-radius: 0;
               <!-- End sidebar categories-->
 
               <div class="sidebar-item recent-posts">
-                <h3 class="sidebar-title">Ultimas noticias</h3>
+                <h3 class="sidebar-title">Portfólio</h3>
 
                 <div class="mt-3">
 
@@ -323,7 +323,7 @@ border-radius: 0;
                   </div><!-- End recent post item-->
 
                 </div>
-               <center style="margin-top:20px"> <button type="button" class="btn btn-outline-info">Mais Noticias</button></center>
+               <center style="margin-top:20px"> <button type="button" class="btn btn-outline-info">Outros Serviços</button></center>
               </div><!-- End sidebar recent posts-->
 
               <!-- <div class="sidebar-item tags">
