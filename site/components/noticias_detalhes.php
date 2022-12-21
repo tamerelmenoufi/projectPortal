@@ -1,12 +1,12 @@
     <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs">
+    <div style="color:#fff;font-weight:450;background:#0ca3a4" class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
           <h2>Titulo da Noticia</h2>
           <ol>
            
-            <li><a href="blog.html">Noticias</a></li>
+            <li ><a style="color:#fff" href="blog.html">Noticias</a></li>
             <li>Noticia 01</li>
           </ol>
         </div>
