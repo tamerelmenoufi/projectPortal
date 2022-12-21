@@ -44,7 +44,8 @@
 
               <h2 class="title">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h2>
 
-            
+              
+
               <div class="content">
                 <p>
                   Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
@@ -85,28 +86,48 @@
                 </p>
 
               </div><!-- End post content -->
+
             </article><!-- End blog post -->
 
+              <div class="reply-form">
 
-             
-            </div>
-        </div>   
-                
+                <h4>Leave a Reply</h4>
+                <p>Your email address will not be published. Required fields are marked * </p>
+                <form action="">
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <input name="name" type="text" class="form-control" placeholder="Your Name*">
+                    </div>
+                    <div class="col-md-6 form-group">
+                      <input name="email" type="text" class="form-control" placeholder="Your Email*">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col form-group">
+                      <input name="website" type="text" class="form-control" placeholder="Your Website">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col form-group">
+                      <textarea name="comment" class="form-control" placeholder="Your Comment*"></textarea>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Post Comment</button>
 
-               
-        
+                </form>
 
-         
+              </div>
 
-             
+            </div><!-- End blog comments -->
+
+          </div>
 
           <div class="col-lg-4">
 
             <div class="sidebar">
 
-         
               <div class="sidebar-item recent-posts">
-                <h3 class="sidebar-title">Noticias Recentes</h3>
+                <h3 class="sidebar-title">Recent Posts</h3>
 
                 <div class="mt-3">
 
@@ -154,7 +175,22 @@
 
               </div><!-- End sidebar recent posts-->
 
-             
+              <div class="sidebar-item tags">
+                <h3 class="sidebar-title">Tags</h3>
+                <ul class="mt-3">
+                  <li><a href="#">App</a></li>
+                  <li><a href="#">IT</a></li>
+                  <li><a href="#">Business</a></li>
+                  <li><a href="#">Mac</a></li>
+                  <li><a href="#">Design</a></li>
+                  <li><a href="#">Office</a></li>
+                  <li><a href="#">Creative</a></li>
+                  <li><a href="#">Studio</a></li>
+                  <li><a href="#">Smart</a></li>
+                  <li><a href="#">Tips</a></li>
+                  <li><a href="#">Marketing</a></li>
+                </ul>
+              </div><!-- End sidebar tags-->
 
             </div><!-- End Blog Sidebar -->
 
