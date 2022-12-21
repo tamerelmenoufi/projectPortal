@@ -1,3 +1,14 @@
+<style>
+.botaoazul{
+  background: var(--color-primary);
+border: 0;
+padding: 10px 35px;
+color: #fff;
+transition: 0.4s;
+border-radius: 0;
+}
+</style> 
+    
     <!-- ======= Portfolio Section ======= -->
     <section id="servicos" class="portfolio" data-aos="fade-up">
 
