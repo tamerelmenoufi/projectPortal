@@ -349,16 +349,19 @@ border-radius: 0;
           </div>
         </div>
 
+        <div class="col-lg-12">
+    
+    <button  type="button"  class="float-end  botaoazul">
+                 <a style="color:#fff" href="javascript:history.back()">Voltar</a></button>
+ </div>
+ 
+
+
       </div>
     </section><!-- End Blog Details Section -->
 
 
-    <div class="row g-5">
+  
 
-<div class="col-lg-12">
-    
-   <button  type="button"  class="float-end  botaoazul">
-                <a style="color:#fff" href="javascript:history.back()">Voltar</a></button>
-</div>
-</div>
+
               
