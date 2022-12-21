@@ -351,7 +351,7 @@ border-radius: 0;
 
         <div class="col-lg-12">
     
-    <button  type="button"  class="float-end  botaoazul">
+    <button style="margin-top:10px"  type="button"  class="float-end  botaoazul">
                  <a style="color:#fff" href="javascript:history.back()">Voltar</a></button>
  </div>
  
