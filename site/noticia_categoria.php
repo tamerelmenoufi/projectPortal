@@ -89,8 +89,7 @@
         // 'pagina_interna2',
         // 'mais_noticias',
         //'noticias_detalhes',
-        //'servicos_detalhes',
-        'servicos_categoria',
+        'noticia_categoria'
         // 'produtos_servicos',
         // 'clientes',
         // 'destaque',
