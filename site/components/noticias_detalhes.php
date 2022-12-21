@@ -352,6 +352,13 @@ border-radius: 0;
       </div>
     </section><!-- End Blog Details Section -->
 
-    <button  type="button"  class="float-end  botaoazul">
+
+    <div class="row g-5">
+
+<div class="col-lg-12">
+    
+   <button  type="button"  class="float-end  botaoazul">
                 <a style="color:#fff" href="javascript:history.back()">Voltar</a></button>
+</div>
+</div>
               
