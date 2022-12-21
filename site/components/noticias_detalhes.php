@@ -1,9 +1,9 @@
     <!-- ======= Breadcrumbs ======= -->
-    <div style="color:#fff;font-weight:450;background:#0ca3a4" class="breadcrumbs">
+    <div style="font-weight:450;background:#0ca3a4" class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Titulo da Noticia</h2>
+          <h2 style="color:#fff">Titulo da Noticia</h2>
           <ol>
            
             <li ><a style="color:#fff" href="blog.html">Noticias</a></li>
@@ -70,6 +70,8 @@
                   Alias quia non aliquid. Eos et ea velit. Voluptatem maxime enim omnis ipsa voluptas incidunt. Nulla sit eaque mollitia nisi asperiores est veniam.
                 </p>
 
+
+                <button href="index.php" type="button" class="btn btn-outline-light">Voltar</button>
               </div><!-- End post content -->
 
             
