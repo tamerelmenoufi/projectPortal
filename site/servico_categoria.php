@@ -90,7 +90,7 @@
         // 'mais_noticias',
         //'noticias_detalhes',
         //'servicos_detalhes',
-        'noticias_categoria',
+        'servicos_categoria',
         // 'produtos_servicos',
         // 'clientes',
         // 'destaque',
