@@ -94,7 +94,7 @@
                 </p>
 
 
-                <button  type="button"  class="float-end btn btn-outline-light botaoazul">
+                <button  type="button"  class="float-end  botaoazul">
                 <a href="javascript:history.back()">Voltar</a></button>
               </div><!-- End post content -->
 
