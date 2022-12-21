@@ -43,7 +43,7 @@
 
         <div class="row g-5">
 
-          <div class="col-lg-12">
+          <div class="col-lg-12 clearfix">
 
             <article class="blog-details">
 
