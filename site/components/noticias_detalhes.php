@@ -1,3 +1,17 @@
+    
+    <style>
+
+.botaoazul{
+  background: var(--color-primary);
+border: 0;
+padding: 10px 35px;
+color: #fff;
+transition: 0.4s;
+border-radius: 0;
+}
+
+</style>
+    
     <!-- ======= Breadcrumbs ======= -->
     <div style="font-weight:450;background:#0ca3a4;color:#fff" class="breadcrumbs">
       <div class="container">
@@ -337,3 +351,7 @@
 
       </div>
     </section><!-- End Blog Details Section -->
+
+    <button  type="button"  class="float-end  botaoazul">
+                <a style="color:#fff" href="javascript:history.back()">Voltar</a></button>
+              
