@@ -1,14 +1,17 @@
     <!-- ======= Portfolio Section ======= -->
     <section id="servicos" class="portfolio" data-aos="fade-up">
 
+    <div style="font-weight:450;background:#0ca3a4;color:#fff" class="breadcrumbs">
       <div class="container">
 
-        <div class="section-header">
-          <h2>Serviços</h2>
-          <p>Conheça a variedade de serviços que a nossa empresa oferece!</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <h2 style="">Todas as Noticias</h2>
+          
         </div>
 
       </div>
+    </div><!-- End Breadcrumbs -->
+
 
       <div class="container-fluid" data-aos="fade-up" data-aos-delay="200">
 
