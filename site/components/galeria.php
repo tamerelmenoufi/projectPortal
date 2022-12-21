@@ -163,11 +163,5 @@
         </div>
 
 
-        <center style="margin-top:20px">
-          <a href="servico_categoria.php">
-         <button type="button" class="btn btn-outline-info">
-          Outros Serviços
-        </button></a>
-      </center>
-      </div>
+       
     </section><!-- End Portfolio Section -->
