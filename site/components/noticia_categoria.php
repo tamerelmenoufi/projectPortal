@@ -80,29 +80,25 @@ border-radius: 0;
         </div>
 
 
-        <center style="margin-top:15px">
-<nav aria-label="...">
-  <ul class="pagination">
+        <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
     <li class="page-item disabled">
       <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
     </li>
     <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item active" aria-current="page">
-      <a class="page-link" href="#">2</a>
-    </li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
     <li class="page-item"><a class="page-link" href="#">3</a></li>
     <li class="page-item">
       <a class="page-link" href="#">Proximo</a>
     </li>
   </ul>
 </nav>
-        </center>
-
 
         <div class="col-lg-12" style="padding:10px">
     
+    <a style="color:#fff" href="javascript:history.back()"> 
     <button style="margin-top:10px"  type="button"  class="float-end  botaoazul">
-                 <a style="color:#fff" href="javascript:history.back()">Voltar</a></button>
+                Voltar</button></a>
  </div>
 </div>
 
