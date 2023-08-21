@@ -88,7 +88,7 @@
       $query = "select * from banners where codigo = '{$_POST['vinculo']}'";
       $result = mysqli_query($con, $query);
       $v = mysqli_fetch_object($result);
-    }
+    }imagem_mb
 
 ?>
 <style>
@@ -183,7 +183,7 @@
         data = $( this ).serialize();
 
         $.ajax({
-          url:"site/banners/form.php",
+          url:"src/banners/form.php",
           type:"POST",
           data,
           success:function(dados){
@@ -202,7 +202,7 @@
 
             $("div[listaBanners]").html('');
             $.ajax({
-              url:"site/banners/lista.php",
+              url:"src/banners/lista.php",
               success:function(dados){
                   // $("div[listaBanners]").html(dados);
                   $("#paginaHome").html(dados);
