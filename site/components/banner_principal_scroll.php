@@ -2,7 +2,7 @@
 if($_GET['cod']){
   $query = "select * from banners where codigo = '{$_GET['cod']}'";
 }else{
-  $query = "select * from banners where situacao = '1' limit 2";
+  $query = "select * from banners where situacao = '1'";
 }
   $result = mysqli_query($con, $query);
 ?>
@@ -13,12 +13,14 @@ if($_GET['cod']){
     while($d = mysqli_fetch_object($result)){
     ?>
     <div class="carousel-item <?=(($active)?'active':false)?>">
-            <img src="<?=$localPainel?>src/volume/banners/<?=$d->imagem?>" alt="" class="d-block w-100">
+            <img src="<?=$localPainel?>site/volume/banners/<?=$d->imagem?>" alt="" class="d-block w-100 d-none d-md-block">
+            <img src="<?=$localPainel?>site/volume/banners/<?=$d->imagem_mb?>" alt="" class="d-block w-100 d-block d-md-none">
     </div><!-- End Carousel Item -->
     <?php
     $active = false;
     }
     ?>
+
     <!-- <div class="carousel-item">
       <div class="container">
         <div class="row justify-content-center gy-6">
