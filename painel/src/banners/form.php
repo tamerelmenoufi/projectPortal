@@ -58,12 +58,7 @@
 
 
       $campos = [];
-      foreach($dados as $i => $v){
-        $campos[] = "{$i} = '{$v}'";
-      }
-      if($_POST['codigo']){
-        $query = "UPDATE banners set ".implode(", ",$campos)." WHERE codigo = '{$_POST['codigo']}'";
-        mysqli_query($con, $query);
+      foreach($dados as $i => $v){site
         $acao = mysqli_affected_rows($con);
       }else{
         $query = "INSERT INTO banners set ".implode(", ",$campos)."";
