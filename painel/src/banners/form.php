@@ -110,7 +110,7 @@
       </div>
 
       <div class="form-floating mb-3">
-        <textarea class="form-control" style="height:100px;" id="descricao" name="descricao" placeholder="Descrição do Banner"><?=$d->titulo?></textarea>
+        <textarea class="form-control" style="height:100px;" id="descricao" name="descricao" placeholder="Descrição do Banner"><?=$d->descricao?></textarea>
         <label for="titulo">Descrição do Banner</label>
         <div class="form-text">Digite a descrição do Banner.</div>
       </div>
