@@ -76,7 +76,7 @@
       }else{
         echo "Nenhuma alteração foi registrada!";
       }
-      imagem_mb
+      
     }
 
 
