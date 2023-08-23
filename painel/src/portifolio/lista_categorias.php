@@ -235,10 +235,6 @@
         });
 
 
-
-
-        ginas com Tópicos
-
         $("button[novoCadastro]").click(function(){
             $.ajax({
                 url:"src/portifolio/form_categorias.php",
