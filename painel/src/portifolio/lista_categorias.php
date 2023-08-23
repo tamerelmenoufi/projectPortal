@@ -237,7 +237,7 @@
 
 
 
-
+        ginas com Tópicos
 
         $("button[novoCadastro]").click(function(){
             $.ajax({
@@ -303,10 +303,10 @@
             situacao = $(this).attr("situacao");
             opc = false;
             status = obj.prop("checked");
-            $(".situacao").prop("checked", false);
+            // $(".situacao").prop("checked", false);
             if(status === 'true'){
               opc = '1';
-              obj.prop("checked", true);
+            //   obj.prop("checked", true);
             }else{
               opc = '0';
             }
