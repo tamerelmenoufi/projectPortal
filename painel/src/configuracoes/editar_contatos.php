@@ -123,20 +123,20 @@
             // console.log(data)
 
             $.ajax({
-                url:"site/configuracoes/editar_contatos.php",
+                url:"src/configuracoes/editar_contatos.php",
                 type:"POST",
                 data,
                 success:function(dados){
 
                     $.ajax({
-                        url:"site/configuracoes/contatos.php",
+                        url:"src/configuracoes/contatos.php",
                         success:function(dados){
                             $(".contatos").html(dados);
                         }
                     });
 
                     $.ajax({
-                        url:"site/configuracoes/midias_sociais.php",
+                        url:"src/configuracoes/midias_sociais.php",
                         success:function(dados){
                             $(".midias_sociais").html(dados);
                         }

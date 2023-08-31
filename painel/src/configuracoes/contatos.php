@@ -61,14 +61,5 @@
             })
         });
 
-        $("button[editar_midias_sociais]").click(function(){
-            $.ajax({
-                url:"src/configuracoes/midias_sociais.php",
-                success:function(dados){
-                    $(".LateralDireita").html(dados);
-                }
-            })
-        });
-
     })
 </script>
